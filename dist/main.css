@@ -12,6 +12,14 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: "danger-zone";
+  src: url("../fonts/DangerZoneWarning.ttf") format("ttf");
+}
+@font-face {
+  font-family: "war-is-over";
+  src: url("../fonts/War_is_over.ttf") format("ttf");
+}
 .logo {
   object-fit: cover;
   width: 100%;
@@ -34,6 +42,20 @@ html {
   background-color: white;
 }
 
+.button-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #2C4C28;
+  color: #532b15;
+  min-width: 200px;
+  min-height: 30px;
+  font-size: 1.2rem;
+  border-radius: 16px;
+  font-family: "danger-zone";
+}
+
 .header__navigation {
   display: flex;
   justify-content: space-between;
@@ -44,7 +66,9 @@ html {
 .header__navigation__link {
   width: 700px;
   height: 300px;
-  /* margin-top:20px; */
+}
+.header__navigation--button-primary {
+  margin-top: 30px;
 }
 
 .header {

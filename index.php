@@ -21,7 +21,7 @@
             <a class="header__navigation__link" href="index.php">
                 <img class="logo header__navigation__link__logo" src="./img/Logo_transparent.png" alt="Captain's Pride tactical combat group">
             </a>
-            <button class="button-primary header__navigation__button">Kontakt</button>
+            <button class="button-primary header__navigation--button-primary">Kontakt</button>
         </nav>
     </header>
 </body>
