@@ -1,6 +1,7 @@
 
 
 .button-primary{
+    appearance: unset;
     display:flex;
     justify-content: center;
     align-items:center;
@@ -9,7 +10,16 @@
     color:#532b15;
     min-width:200px;
     min-height:30px;
-    font-size:1.2rem;
+    font-size:1.5rem;
     border-radius:16px;
-    font-family:'danger-zone';
+    border:none;
+    font-family: "badsuabia", sans-serif;
+    letter-spacing: 2px;
+    cursor:pointer;
+
+    &:hover{
+        color:#2C4C28;
+        background-color:#532b15;
+        transition: all 0.225s ease-in-out;
+    }
 }
