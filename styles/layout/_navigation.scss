@@ -1,0 +1,14 @@
+.header__navigation{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    position:relative;
+    padding:0 120px;
+
+    &__link{
+        width:700px;
+        height:300px;
+        /* margin-top:20px; */
+    }
+
+}
