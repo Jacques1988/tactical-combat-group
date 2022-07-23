@@ -12,4 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.logo {
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+}
+
 /*# sourceMappingURL=main.css.map */
