@@ -23,6 +23,20 @@
             </a>
             <button class="button-primary header__navigation--button-primary">Kontakt</button>
         </nav>
+
+        <div class="container">
+            <div class="header__teaser">
+                <h1 class="heading">Willkommen im Airsoft Team von Captain's Pride Tactical</h1>
+                <div class="card header__teaser--card">
+                    <div class="card__image">
+                        <img src="" alt="">
+                    </div>
+                    <p class="card__text">Mit unserem Training bist du immer für ein Spiel bereit</p>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
     </header>
 </body>
 
