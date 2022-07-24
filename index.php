@@ -14,9 +14,18 @@
 <body>
     <header class="header">
         <nav class="header__navigation">
-            <div class="header__navigation__menu">
-                <span class="header__navigation__menu__bar"></span>
-                <span class="header__navigation__menu__bar"></span>
+            <div id="burger" onclick="open_menu()" class="header__navigation__burger">
+                <span class="header__navigation__burger__bar"></span>
+                <span class="header__navigation__burger__bar"></span>
+            </div>
+            <div id="menu" class="header__navigation__menu">
+                <ul class="header__navigation__menu__box">
+                <span onclick="close_menu()" class="header__navigation__menu__close-button">X</span>
+                    <li class="header__navigation__menu__box__list"><a class="header__navigation__menu__box__list__link" href="#">Home</a></li>
+                    <li class="header__navigation__menu__box__list"><a class="header__navigation__menu__box__list__link" href="#" href="#">Wer wir sind</a></li>
+                    <li class="header__navigation__menu__box__list"><a class="header__navigation__menu__box__list__link" href="#" href="#">Kontakt</a></li>
+                    <li class="header__navigation__menu__box__list"><a class="header__navigation__menu__box__list__link" href="#" href="#">Login</a></li>
+                </ul>
             </div>
             <a class="header__navigation__link" href="index.php">
                 <img class="logo header__navigation__link__logo" src="./img/Logo_transparent.png" alt="Captain's Pride tactical combat group">
@@ -38,12 +47,14 @@
                         <div class="card__image--back">
                             <img src="./img/members/sniper.jpeg" alt="Sniper in Position">
                         </div>
-                        <p class="card__text--back">Unser Airsoft Verein auf Rügen</p> 
+                        <p class="card__text--back">Mit uns bist du immer in der besten Position</p> 
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
+    <script src="./scripts/open_menu.js"></script>
 </body>
 
 </html>
