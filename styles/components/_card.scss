@@ -7,34 +7,50 @@
     width:350px;
     height:450px;
     position:relative;
+    transition: transform 1s ease-in-out;
     transform-style: preserve-3d;
-    transition: transform 0.5s ease-in-out;
     cursor:pointer;
 
     &:hover{
         transform: rotateY(180deg);
     }
 
-    &__image{
+    &__image--front, &__image--back{
         height:100%;
         width:100%;
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        backface-visibility: hidden;
+        
     }
 
-    &__text{
+    &__image--back{
+        transform: rotateY(180deg);
+        backface-visibility: hidden;
+    }
+
+    &__text--front, &__text--back{
         display:flex;
         justify-content: center;
         align-items:center;
         position:absolute;
         bottom:0;
-        left:0;
-        right:0;
+        left:auto;
+        right:auto;
         background-color:#2C4C28;
         height:80px;
-        width:100%;
+        width:325px;;
         color:white;
         font-family:"badsuabia", sans-serif;
         font-size:1.6rem;
         text-align:center;
         transform: translateZ(50px);
+    }
+
+    &__text--back{
+        transform: translateZ(-50px) rotateY(180deg);
     }
 }
