@@ -1,4 +1,4 @@
-
+@use "../abstracts/variables" as *;
 
 .header__navigation__burger{
     display:flex;
@@ -40,6 +40,10 @@
         color:currentColor;
         padding-left:25px;
         cursor:pointer;
+
+        @media screen and(max-width:#{$laptopSize}){
+            font-size:1.5rem;
+        }
     }
 
     &__box{
@@ -55,6 +59,7 @@
             width:100%;
             padding: 0.5rem 0rem 0.5rem 1.75rem;
             transition:0.5s ease-in-out;
+            cursor:pointer;
 
             &__link{
                 font-family: 'badsuabia', sans-serif;
@@ -62,6 +67,10 @@
                 font-size:2rem;
                 width:100%;
                 padding:0.5rem 0;
+
+                @media screen and(max-width:#{$laptopSize}){
+                    font-size:1.5rem;
+                }
             }
             &:hover{
                 background-color:white;

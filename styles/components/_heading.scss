@@ -1,4 +1,4 @@
-
+@use "../abstracts/variables" as *;
 
 .heading{
     color:white;
@@ -7,7 +7,7 @@
     font-family: "badsuabia", sans-serif;
     font-weight: normal;
 
-    @media screen and(max-width:1600px){
+    @media screen and(max-width:#{$laptopSize}){
         font-size: 4rem;
         max-width:600px;
     }
