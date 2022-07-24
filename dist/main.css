@@ -62,6 +62,11 @@ img {
   transition: opacity 1s ease-in-out, z-index 1.5s ease;
   z-index: -10;
 }
+@media screen and (max-width: 750px) {
+  .header__navigation__menu {
+    width: 100vw;
+  }
+}
 .header__navigation__menu__close-button {
   font-family: "badsuabia", sans-serif;
   font-size: 2rem;
@@ -149,6 +154,14 @@ img {
     padding-right: 16px;
   }
 }
+@media screen and (max-width: 750px) {
+  .heading {
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    padding-bottom: 25px;
+  }
+}
 
 .card {
   display: flex;
@@ -222,6 +235,11 @@ img {
     padding: 0 120px;
   }
 }
+@media screen and (max-width: 750px) {
+  .header__navigation {
+    padding: 30px 20px 25px 20px;
+  }
+}
 .header__navigation__link {
   width: 700px;
   height: 300px;
@@ -241,6 +259,11 @@ img {
 .header__navigation--button-primary {
   margin-top: 30px;
 }
+@media screen and (max-width: 750px) {
+  .header__navigation--button-primary {
+    display: none;
+  }
+}
 
 .container {
   display: flex;
@@ -253,6 +276,11 @@ img {
 @media screen and (max-width: 1200px) {
   .container {
     padding: 0 120px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container {
+    padding: 0 20px;
   }
 }
 
@@ -284,6 +312,12 @@ img {
 @media screen and (max-width: 1000px) {
   .header__teaser {
     padding-top: 100px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header__teaser {
+    flex-direction: column;
+    padding-top: 0;
   }
 }
 

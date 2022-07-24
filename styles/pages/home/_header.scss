@@ -27,5 +27,10 @@
         @media screen and(max-width:#{$smallViewport}){
             padding-top:100px;
         }
+
+        @media screen and(max-width:#{$smartphoneSize}){
+            flex-direction: column;
+            padding-top:0;
+        }
     }
 }

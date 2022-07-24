@@ -11,6 +11,10 @@
         padding:0 $tabletPadding;
     }
 
+    @media screen and(max-width:#{$smartphoneSize}){
+        padding:30px $smartphonePadding 25px $smartphonePadding;
+    }
+
     &__link{
         width:700px;
         height:300px;
@@ -28,5 +32,9 @@
 
     &--button-primary{
         margin-top:30px;
+
+        @media screen and(max-width:#{$smartphoneSize}){
+            display:none;
+        }
     }
 }
