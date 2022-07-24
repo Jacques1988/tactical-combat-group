@@ -4,9 +4,16 @@
     display:flex;
     justify-content: center;
     align-items:center;
-    width:400px;
-    height:500px;
+    width:350px;
+    height:450px;
     position:relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+    cursor:pointer;
+
+    &:hover{
+        transform: rotateY(180deg);
+    }
 
     &__image{
         height:100%;
@@ -23,9 +30,11 @@
         right:0;
         background-color:#2C4C28;
         height:80px;
+        width:100%;
         color:white;
         font-family:"badsuabia", sans-serif;
-        font-size:2rem;
+        font-size:1.6rem;
         text-align:center;
+        transform: translateZ(50px);
     }
 }

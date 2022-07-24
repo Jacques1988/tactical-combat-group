@@ -51,7 +51,7 @@ img {
   align-items: center;
   padding: 0.5rem 1rem;
   background-color: #2C4C28;
-  color: #532b15;
+  color: white;
   min-width: 200px;
   min-height: 30px;
   font-size: 1.5rem;
@@ -79,9 +79,15 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+}
+.card:hover {
+  transform: rotateY(180deg);
 }
 .card__image {
   height: 100%;
@@ -97,10 +103,12 @@ img {
   right: 0;
   background-color: #2C4C28;
   height: 80px;
+  width: 100%;
   color: white;
   font-family: "badsuabia", sans-serif;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: center;
+  transform: translateZ(50px);
 }
 
 .header__navigation {
@@ -125,6 +133,10 @@ img {
   flex-direction: column;
   width: 100%;
   padding: 0 200px;
+}
+
+.scene {
+  perspective: 600px;
 }
 
 .header {
