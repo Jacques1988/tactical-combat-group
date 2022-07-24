@@ -143,6 +143,12 @@ img {
     max-width: 600px;
   }
 }
+@media screen and (max-width: 1000px) {
+  .heading {
+    font-size: 3.5rem;
+    padding-right: 16px;
+  }
+}
 
 .card {
   display: flex;
@@ -211,7 +217,7 @@ img {
   position: relative;
   padding: 0 200px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .header__navigation {
     padding: 0 120px;
   }
@@ -226,6 +232,12 @@ img {
     height: 200px;
   }
 }
+@media screen and (max-width: 1000px) {
+  .header__navigation__link {
+    width: 250px;
+    height: 100px;
+  }
+}
 .header__navigation--button-primary {
   margin-top: 30px;
 }
@@ -238,7 +250,7 @@ img {
   width: 100%;
   padding: 0 200px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .container {
     padding: 0 120px;
   }
@@ -267,6 +279,11 @@ img {
 @media screen and (max-width: 1600px) {
   .header__teaser {
     padding-top: 25px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header__teaser {
+    padding-top: 100px;
   }
 }
 

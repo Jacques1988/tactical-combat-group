@@ -23,5 +23,9 @@
         @media screen and(max-width:#{$laptopSize}){
             padding-top:25px;
         }
+
+        @media screen and(max-width:#{$smallViewport}){
+            padding-top:100px;
+        }
     }
 }

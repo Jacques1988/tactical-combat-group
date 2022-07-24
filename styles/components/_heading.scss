@@ -11,4 +11,9 @@
         font-size: 4rem;
         max-width:600px;
     }
+
+    @media screen and(max-width:#{$smallViewport}){
+        font-size:3.5rem;
+        padding-right:16px;
+    }
 }

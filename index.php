@@ -23,7 +23,7 @@
                 <span onclick="close_menu()" class="header__navigation__menu__close-button">X</span>
                     <li class="header__navigation__menu__box__list"><a class="header__navigation__menu__box__list__link" href="#">Home</a></li>
                     <li class="header__navigation__menu__box__list"><a class="header__navigation__menu__box__list__link" href="#" href="#">Wer wir sind</a></li>
-                    <li class="header__navigation__menu__box__list"><a class="header__navigation__menu__box__list__link" href="#" href="#">Kontakt</a></li>
+                    <li class="header__navigation__menu__box__list"><a class="header__navigation__menu__box__list__link" href="#" href="#">Shop</a></li>
                     <li class="header__navigation__menu__box__list"><a class="header__navigation__menu__box__list__link" href="#" href="#">Login</a></li>
                 </ul>
             </div>
