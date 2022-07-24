@@ -12,8 +12,8 @@
     
     &__bar{
         width:100%;
-        border:1px solid white;
-        background-color: white;
+        border:1px solid $white;
+        background-color: $white;
     }
 }
 
@@ -22,12 +22,12 @@
     justify-content: space-between;
     align-items:center;
     position:absolute;
-    color:white;
+    color:$white;
     top:0;
     left:0;
     width:300px;
     height:100vh;
-    background-color:#2C4C28;
+    background-color:$mainGreen;
     padding:50px 0;
     opacity:0;
     transition: opacity 1s ease-in-out, z-index 1.5s ease;
@@ -74,7 +74,7 @@
             }
             &:hover{
                 background-color:white;
-                color:#2C4C28;
+                color:$mainGreen;
             }
         }
     }

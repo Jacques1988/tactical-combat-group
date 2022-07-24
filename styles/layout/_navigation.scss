@@ -1,3 +1,5 @@
+@use "../abstracts/variables" as *;
+
 .header__navigation{
     display:flex;
     justify-content: space-between;
@@ -5,15 +7,15 @@
     position:relative;
     padding:0 200px;
 
-    @media screen and(max-width:1600px){
-        padding:0 80px;
+    @media screen and(max-width:#{$tabletSize}){
+        padding:0 $tabletPadding;
     }
 
     &__link{
         width:700px;
         height:300px;
 
-        @media screen and(max-width:1600px){
+        @media screen and(max-width:#{$laptopSize}){
             width:450px;
             height:200px;
         }
