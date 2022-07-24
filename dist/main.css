@@ -63,7 +63,7 @@ img {
 }
 .button-primary:hover {
   color: #2C4C28;
-  background-color: #532b15;
+  background-color: white;
   transition: all 0.225s ease-in-out;
 }
 
