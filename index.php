@@ -29,11 +29,9 @@
                 <h1 class="heading">Willkommen im Airsoft Team von Captain's Pride Tactical</h1>
                 <div class="card header__teaser--card">
                     <div class="card__image">
-                        <img src="" alt="">
+                        <img src="./img/members/tom.jpg" alt="Airsoft Spieler Tom in Aktion">
                     </div>
-                    <p class="card__text">Mit unserem Training bist du immer für ein Spiel bereit</p>
-                </div>
-                <div>
+                    <p class="card__text">Mit unserem Training bist du immer Spielbereit</p>
                 </div>
             </div>
         </div>

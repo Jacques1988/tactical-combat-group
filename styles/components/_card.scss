@@ -1,0 +1,31 @@
+
+
+.card{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:400px;
+    height:500px;
+    position:relative;
+
+    &__image{
+        height:100%;
+        width:100%;
+    }
+
+    &__text{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        position:absolute;
+        bottom:0;
+        left:0;
+        right:0;
+        background-color:#2C4C28;
+        height:80px;
+        color:white;
+        font-family:"badsuabia", sans-serif;
+        font-size:2rem;
+        text-align:center;
+    }
+}
