@@ -6,4 +6,9 @@
     max-width:700px;
     font-family: "badsuabia", sans-serif;
     font-weight: normal;
+
+    @media screen and(max-width:1600px){
+        font-size: 4rem;
+        max-width:600px;
+    }
 }

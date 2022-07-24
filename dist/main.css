@@ -1,3 +1,5 @@
+/* ############################################################ RESPONSIVE DESIGN SIZES ######################################################################### */
+/* ###########################################################          Colors          ######################################################################### */
 * {
   padding: 0;
   margin: 0;
@@ -124,6 +126,12 @@ img {
   font-family: "badsuabia", sans-serif;
   font-weight: normal;
 }
+@media screen and (max-width: 1600px) {
+  .heading {
+    font-size: 4rem;
+    max-width: 600px;
+  }
+}
 
 .card {
   display: flex;
@@ -135,6 +143,12 @@ img {
   transition: transform 1s ease-in-out;
   transform-style: preserve-3d;
   cursor: pointer;
+}
+@media screen and (max-width: 1600px) {
+  .card {
+    width: 300px;
+    height: 400px;
+  }
 }
 .card:hover {
   transform: rotateY(180deg);
@@ -170,6 +184,11 @@ img {
   text-align: center;
   transform: translateZ(50px);
 }
+@media screen and (max-width: 1600px) {
+  .card__text--front, .card__text--back {
+    width: 275px;
+  }
+}
 .card__text--back {
   transform: translateZ(-50px) rotateY(180deg);
 }
@@ -181,9 +200,20 @@ img {
   position: relative;
   padding: 0 200px;
 }
+@media screen and (max-width: 1600px) {
+  .header__navigation {
+    padding: 0 80px;
+  }
+}
 .header__navigation__link {
   width: 700px;
   height: 300px;
+}
+@media screen and (max-width: 1600px) {
+  .header__navigation__link {
+    width: 450px;
+    height: 200px;
+  }
 }
 .header__navigation--button-primary {
   margin-top: 30px;
@@ -196,6 +226,11 @@ img {
   flex-direction: column;
   width: 100%;
   padding: 0 200px;
+}
+@media screen and (max-width: 1600px) {
+  .container {
+    padding: 0 80px;
+  }
 }
 
 .scene {
@@ -217,6 +252,11 @@ img {
   align-items: center;
   width: 100%;
   padding-top: 50px;
+}
+@media screen and (max-width: 1600px) {
+  .header__teaser {
+    padding-top: 25px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
