@@ -96,6 +96,7 @@ img {
   cursor: pointer;
 }
 .header__navigation__menu__box__list__link {
+  display: block;
   font-family: "badsuabia", sans-serif;
   color: currentColor;
   font-size: 2rem;
