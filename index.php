@@ -20,7 +20,12 @@
             </div>
             <div id="menu" class="header__navigation__menu">
                 <ul class="header__navigation__menu__box">
-                <span onclick="close_menu()" class="header__navigation__menu__close-button">X</span>
+                    <div class="header__navigation__menu__box__teaser">
+                        <div class="header__navigation__menu__box__teaser__logo-container">
+                            <img src="./img/Logo.jpg" alt="Captain's Pride Tactical combat group">
+                        </div>
+                        <span onclick="close_menu()" class="header__navigation__menu__close-button">X</span>
+                    </div>
                     <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#">Home</a></li>
                     <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#" href="#">Wer wir sind</a></li>
                     <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#" href="#">Shop</a></li>
@@ -38,16 +43,16 @@
                 <h1 class="heading">Willkommen im Airsoft Team von Captain's Pride Tactical</h1>
                 <div class="scene">
                     <div class="card header__teaser--card">
-                        
+
                         <div class="card__image--front">
                             <img src="./img/members/tom.jpg" alt="Airsoft Spieler Tom in Aktion">
                         </div>
                         <p class="card__text--front">Mit unserem Training bist du immer Spielbereit</p>
-                        
+
                         <div class="card__image--back">
                             <img src="./img/members/sniper.jpeg" alt="Sniper in Position">
                         </div>
-                        <p class="card__text--back">Mit uns bist du immer in der besten Position</p> 
+                        <p class="card__text--back">Mit uns bist du immer in der besten Position</p>
                     </div>
                 </div>
             </div>
