@@ -248,9 +248,9 @@ img {
   font-size: 2rem;
   padding: 8px 16px;
 }
-.text-panel--green {
-  color: whitesmoke;
-  background-color: #2C4C28;
+.text-panel--brown {
+  color: #532b15;
+  padding: 0;
 }
 
 .header__navigation {
@@ -303,6 +303,12 @@ img {
   width: 100%;
   max-width: 2000px;
   padding: 0 200px;
+}
+.container__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
 }
 .container--row {
   flex-direction: row;

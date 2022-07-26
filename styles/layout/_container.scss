@@ -9,6 +9,13 @@
     max-width:$maximumDesktopSize;
     padding:0 $laptopPadding;
 
+    &__content{
+        display:flex;
+        justify-content: space-between;
+        align-items:flex-start;
+        flex-direction:column;
+    }
+
     &--row{
         flex-direction: row;
         justify-content: space-between;

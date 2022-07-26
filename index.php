@@ -69,12 +69,12 @@
                         <p class="card__text--back">AK 107</p>
                     </div>
                 </div>
-                <div class="advantages">
+                <div class="container__content">
                     <h1 class="heading heading--green">Tritt unserem Team bei und</h1>
-                    <p class="text-panel text-panel--green">erhalte Zugriff auf unsere Community</p>
-                    <p class="text-panel text-panel--green">diskutiere mit uns die neuesten Trends</p>
-                    <p class="text-panel text-panel--green">erhalte Vorteile bei Events und Seminaren</p>
-                    <p class="text-panel text-panel--green">lerne neue Freunde kennen, die immer zusammenhalten</p>
+                    <p class="text-panel text-panel--brown">erhalte Zugriff auf unsere Community</p>
+                    <p class="text-panel text-panel--brown">diskutiere mit uns die neuesten Trends</p>
+                    <p class="text-panel text-panel--brown">erhalte Vorteile bei Events und Seminaren</p>
+                    <p class="text-panel text-panel--brown">lerne neue Freunde kennen, die immer zusammenhalten</p>
                     <a class="button-primary button-primary--link" href="#">Jetzt anmelden</a>
                 </div>
             </div>
