@@ -59,7 +59,7 @@ img {
   background-color: #2C4C28;
   padding: 50px 0;
   opacity: 0;
-  transition: opacity 1s ease-in-out, z-index 1.5s ease;
+  transition: opacity 0.375s ease-in-out, z-index 1.5s ease;
   z-index: -10;
 }
 @media screen and (max-width: 750px) {
@@ -296,6 +296,10 @@ img {
   }
 }
 
+.main {
+  width: 100%;
+}
+
 .scene {
   perspective: 600px;
 }
@@ -331,6 +335,49 @@ img {
     flex-direction: column;
     padding-top: 0;
   }
+}
+
+.presentation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  padding: 50px;
+}
+.presentation__design-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  position: relative;
+  background-image: linear-gradient(45deg, #2C4C28 60%, #499c44);
+  transform-style: preserve-3d;
+  transition: transform 1s ease-in-out;
+  cursor: pointer;
+}
+.presentation__design-element:hover {
+  transform: rotateY(180deg);
+}
+.presentation__design-element__image--front {
+  width: 600px;
+  height: unset;
+  transform: rotate(-45deg) translateZ(50px);
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+.presentation__design-element__image--back {
+  width: 600px;
+  height: unset;
+  transform: rotate(45deg) translateZ(-50px);
+  position: absolute;
+  top: 30%;
+  left: -20%;
 }
 
 /*# sourceMappingURL=main.css.map */

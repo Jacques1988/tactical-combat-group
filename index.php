@@ -58,6 +58,21 @@
             </div>
         </div>
     </header>
+    <main class="main">
+    <section class="presentation">
+        <div class="container">
+    <div class="scene">
+    <div class="presentation__design-element">
+        <img class="presentation__design-element__image--front" src="./img/G36A11_re.png" alt="G36 Heckler und Koch für Spezialeinheiten">
+        <img class="presentation__design-element__image--back" src="./img/Kalaschnikow_AK_107_noBG.png" alt="AK107 weit verbreitet und sehr effektiv in der Handhabung">
+    </div>
+    </div>
+        </div>
+    </section>
+    </main>
+    
+
+    
 
     <script src="./scripts/open_menu.js"></script>
 </body>
