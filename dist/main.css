@@ -238,6 +238,19 @@ img {
   transform: translateZ(-50px) rotateY(180deg);
 }
 
+.text-panel {
+  background-color: #fff;
+  color: #2C4C28;
+  font-family: "badsuabia", sans-serif;
+  margin: 24px 0;
+  font-size: 2rem;
+  padding: 8px 16px;
+}
+.text-panel--green {
+  color: #fff;
+  background-color: #2C4C28;
+}
+
 .header__navigation {
   display: flex;
   justify-content: space-between;

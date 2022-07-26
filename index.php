@@ -71,9 +71,10 @@
                 </div>
                 <div class="advantages">
                     <h1 class="heading heading--green">Tritt unserem Team bei und</h1>
-                    <p class="text-panel text-panel--green">Dies sind deine Vorteile</p>
-                    <p class="text-panel text-panel--green">Dies sind deine Vorteile</p>
-                    <p class="text-panel text-panel--green">Dies sind deine Vorteile</p>
+                    <p class="text-panel text-panel--green">erhalte Zugriff auf unsere Community</p>
+                    <p class="text-panel text-panel--green">diskutiere mit uns die neuesten Trends</p>
+                    <p class="text-panel text-panel--green">erhalte Vorteile bei Events und Seminaren</p>
+                    <p class="text-panel text-panel--green">erwarte Freunde die immer zusammenhalten</p>
                 </div>
             </div>
         </section>
