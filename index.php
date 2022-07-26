@@ -74,7 +74,7 @@
                     <p class="text-panel text-panel--green">erhalte Zugriff auf unsere Community</p>
                     <p class="text-panel text-panel--green">diskutiere mit uns die neuesten Trends</p>
                     <p class="text-panel text-panel--green">erhalte Vorteile bei Events und Seminaren</p>
-                    <p class="text-panel text-panel--green">erwarte Freunde die immer zusammenhalten</p>
+                    <p class="text-panel text-panel--green">lerne neue Freunde kennen, die immer zusammenhalten</p>
                 </div>
             </div>
         </section>
