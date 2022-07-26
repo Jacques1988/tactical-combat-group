@@ -7,6 +7,10 @@
     font-family: "badsuabia", sans-serif;
     font-weight: normal;
 
+    &--green{
+        color:$mainGreen;
+    }
+
     @media screen and(max-width:#{$laptopSize}){
         font-size: 4rem;
         max-width:600px;

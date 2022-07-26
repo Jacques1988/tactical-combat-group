@@ -59,20 +59,28 @@
         </div>
     </header>
     <main class="main">
-    <section class="presentation">
-        <div class="container">
-    <div class="scene">
-    <div class="presentation__design-element">
-        <img class="presentation__design-element__image--front" src="./img/G36A11_re.png" alt="G36 Heckler und Koch für Spezialeinheiten">
-        <img class="presentation__design-element__image--back" src="./img/Kalaschnikow_AK_107_noBG.png" alt="AK107 weit verbreitet und sehr effektiv in der Handhabung">
-    </div>
-    </div>
-        </div>
-    </section>
+        <section class="presentation">
+            <div class="container container--row">
+                <div class="scene">
+                    <div class="presentation__design-element">
+                        <img class="presentation__design-element__image--front" src="./img/G36A11_re.png" alt="G36 Heckler und Koch für Spezialeinheiten">
+                        <p class="card__text--front">G36 A11</p>
+                        <img class="presentation__design-element__image--back" src="./img/Kalaschnikow_AK_107_noBG.png" alt="AK107 weit verbreitet und sehr effektiv in der Handhabung">
+                        <p class="card__text--back">AK 107</p>
+                    </div>
+                </div>
+                <div class="advantages">
+                    <h1 class="heading heading--green">Tritt unserem Team bei und</h1>
+                    <p class="text-panel text-panel--green">Dies sind deine Vorteile</p>
+                    <p class="text-panel text-panel--green">Dies sind deine Vorteile</p>
+                    <p class="text-panel text-panel--green">Dies sind deine Vorteile</p>
+                </div>
+            </div>
+        </section>
     </main>
-    
 
-    
+
+
 
     <script src="./scripts/open_menu.js"></script>
 </body>
