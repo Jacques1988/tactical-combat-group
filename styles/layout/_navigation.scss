@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items:flex-start;
     position:relative;
-    padding:0 200px;
+    padding:0 $laptopPadding;
 
     @media screen and(max-width:#{$tabletSize}){
         padding:0 $tabletPadding;

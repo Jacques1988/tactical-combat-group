@@ -42,8 +42,8 @@ img {
 }
 .header__navigation__burger__bar {
   width: 100%;
-  border: 1px solid #fff;
-  background-color: #fff;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
 }
 
 .header__navigation__menu {
@@ -51,7 +51,7 @@ img {
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  color: #fff;
+  color: whitesmoke;
   top: 0;
   left: 0;
   width: 300px;
@@ -120,7 +120,7 @@ img {
   }
 }
 .header__navigation__menu__box__list:hover {
-  background-color: white;
+  background-color: whitesmoke;
   color: #2C4C28;
 }
 
@@ -131,7 +131,7 @@ img {
   align-items: center;
   padding: 0.5rem 1rem;
   background-color: #2C4C28;
-  color: #fff;
+  color: whitesmoke;
   min-width: 200px;
   min-height: 30px;
   font-size: 1.5rem;
@@ -143,12 +143,12 @@ img {
 }
 .button-primary:hover {
   color: #2C4C28;
-  background-color: #fff;
+  background-color: whitesmoke;
   transition: all 0.225s ease-in-out;
 }
 
 .heading {
-  color: #fff;
+  color: whitesmoke;
   font-size: 6rem;
   max-width: 700px;
   font-family: "badsuabia", sans-serif;
@@ -223,7 +223,7 @@ img {
   background-color: #2C4C28;
   height: 80px;
   width: 325px;
-  color: #fff;
+  color: whitesmoke;
   font-family: "badsuabia", sans-serif;
   font-size: 1.6rem;
   text-align: center;
@@ -239,7 +239,7 @@ img {
 }
 
 .text-panel {
-  background-color: #fff;
+  background-color: whitesmoke;
   color: #2C4C28;
   font-family: "badsuabia", sans-serif;
   margin: 24px 0;
@@ -247,7 +247,7 @@ img {
   padding: 8px 16px;
 }
 .text-panel--green {
-  color: #fff;
+  color: whitesmoke;
   background-color: #2C4C28;
 }
 
@@ -299,6 +299,7 @@ img {
   align-items: center;
   flex-direction: column;
   width: 100%;
+  max-width: 2000px;
   padding: 0 200px;
 }
 .container--row {
