@@ -135,11 +135,13 @@ img {
   min-width: 200px;
   min-height: 30px;
   font-size: 1.5rem;
-  border-radius: 16px;
   border: none;
   font-family: "badsuabia", sans-serif;
   letter-spacing: 2px;
   cursor: pointer;
+}
+.button-primary--link {
+  max-width: 400px;
 }
 .button-primary:hover {
   color: #2C4C28;
