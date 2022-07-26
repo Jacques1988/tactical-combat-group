@@ -148,6 +148,9 @@ img {
   background-color: whitesmoke;
   transition: all 0.225s ease-in-out;
 }
+.button-primary--on-white:hover {
+  border: 1px solid #2C4C28;
+}
 
 .heading {
   color: whitesmoke;

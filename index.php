@@ -75,7 +75,7 @@
                     <p class="text-panel text-panel--brown">diskutiere mit uns die neuesten Trends</p>
                     <p class="text-panel text-panel--brown">erhalte Vorteile bei Events und Seminaren</p>
                     <p class="text-panel text-panel--brown">lerne neue Freunde kennen, die immer zusammenhalten</p>
-                    <a class="button-primary button-primary--link" href="#">Jetzt anmelden</a>
+                    <a class="button-primary button-primary--on-white button-primary--link" href="#">Jetzt anmelden</a>
                 </div>
             </div>
         </section>
