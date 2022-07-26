@@ -10,9 +10,13 @@ $laptopPadding:200px;
 $tabletPadding:120px;
 $smartphonePadding:20px;
 
+$maximumDesktopSize: 2000px;
+
 
 /* ###########################################################          COLORS          ######################################################################### */
 
 $overlay_primary: linear-gradient(180deg,rgba(0,0,0,0.9), rgba(2, 32, 4, 0.9));
+$overlyay_secondary: linear-gradient(45deg,rgba(44,76,40, 0.8)60%, rgba(73,156,68, 0.8));
 $mainGreen: #2C4C28;
+$secondGreen:#499c44;
 $white: whitesmoke;
