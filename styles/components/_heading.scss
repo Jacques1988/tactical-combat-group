@@ -9,6 +9,10 @@
 
     &--green{
         color:$mainGreen;
+
+        @media screen and(max-width:$laptopSize){
+            font-size:4rem;
+        }
     }
 
     @media screen and(max-width:#{$laptopSize}){
