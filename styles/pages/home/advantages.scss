@@ -16,11 +16,30 @@
     background-repeat:no-repeat;
 
     &__products{
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        width:100%;
         padding:50px 0px;
 
         &__card{
             background-image: $overlay_primary;
 
+
+            &__backside-description{
+                display:flex;
+                justify-content: center;
+                align-items:center;
+                color:$white;
+                max-width:80%;
+                position:absolute;
+                top:50px;
+                left:auto;
+                right:auto;
+                font-family:'roboto', sans-serif;
+                text-align:center;
+                transform:translateZ(-50px) rotateY(180deg);
+            }
 
             &__image{
                 backface-visibility: hidden;

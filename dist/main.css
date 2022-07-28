@@ -24,6 +24,10 @@ img {
   font-family: "badsuabia";
   src: url(../fonts/BadSuabiaSwing-Regular.otf) format("opentype");
 }
+@font-face {
+  font-family: "roboto";
+  src: url(../../fonts/Roboto-Medium.ttf) format("opentype");
+}
 .logo {
   object-fit: cover;
   width: 100%;
@@ -476,10 +480,28 @@ img {
   background-repeat: no-repeat;
 }
 .advantages__products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   padding: 50px 0px;
 }
 .advantages__products__card {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(2, 32, 4, 0.9));
+}
+.advantages__products__card__backside-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  max-width: 80%;
+  position: absolute;
+  top: 50px;
+  left: auto;
+  right: auto;
+  font-family: "roboto", sans-serif;
+  text-align: center;
+  transform: translateZ(-50px) rotateY(180deg);
 }
 .advantages__products__card__image {
   backface-visibility: hidden;

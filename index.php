@@ -87,10 +87,23 @@
                         <div class="card advantages__products__card">
                             <img class="advantages__products__card__image" src="./img/members/heino.jpg" alt="Soldat visiert Ziel an">
                             <p class="card__text--front">Taktisches agieren mit Kurz und Langwaffe</p>
+                            <p class="advantages__products__card__backside-description">In unserem Training vermitteln wir den taktischen, als auch den generellen Umgang mit Kurz und Langwaffen, damit du stets weißt, wie du auf dem Airsoftspielfeld agierst um mit deinem Team optimal zusammenarbeiten zu können<br> <br>Dazu gehört der generelle Umgang mit Funk als auch deiner gesamten taktischen Ausrüstung. Das Team hilft dir steht, dich bestens zurecht zu finden </p>
                         </div>
                     </div>
-                    <div class="scene"></div>
-                    <div class="scene"></div>
+                    <div class="scene">
+                    <div class="card advantages__products__card">
+                            <img class="advantages__products__card__image" src="./img/members/heino.jpg" alt="Soldat visiert Ziel an">
+                            <p class="card__text--front">Taktisches agieren mit Kurz und Langwaffe</p>
+                            <p class="advantages__products__card__backside-description">In unserem Training vermitteln wir den taktischen, als auch den generellen Umgang mit Kurz und Langwaffen, damit du stets weißt, wie du auf dem Airsoftspielfeld agierst um mit deinem Team optimal zusammenarbeiten zu können<br> <br>Dazu gehört der generelle Umgang mit Funk als auch deiner gesamten taktischen Ausrüstung. Das Team hilft dir steht, dich bestens zurecht zu finden </p>
+                        </div>
+                    </div>
+                    <div class="scene">
+                    <div class="card advantages__products__card">
+                            <img class="advantages__products__card__image" src="./img/members/heino.jpg" alt="Soldat visiert Ziel an">
+                            <p class="card__text--front">Taktisches agieren mit Kurz und Langwaffe</p>
+                            <p class="advantages__products__card__backside-description">In unserem Training vermitteln wir den taktischen, als auch den generellen Umgang mit Kurz und Langwaffen, damit du stets weißt, wie du auf dem Airsoftspielfeld agierst um mit deinem Team optimal zusammenarbeiten zu können<br> <br>Dazu gehört der generelle Umgang mit Funk als auch deiner gesamten taktischen Ausrüstung. Das Team hilft dir steht, dich bestens zurecht zu finden </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
