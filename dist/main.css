@@ -239,6 +239,7 @@ img {
   font-size: 1.6rem;
   text-align: center;
   transform: translateZ(50px);
+  backface-visibility: hidden;
 }
 @media screen and (max-width: 1600px) {
   .card__text--front, .card__text--back {
@@ -460,6 +461,28 @@ img {
   .presentation__design-element__image--back {
     width: 450px;
   }
+}
+
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(2, 32, 4, 0.9)), url("../img/soldier_background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.advantages__products {
+  padding: 50px 0px;
+}
+.advantages__products__card {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(2, 32, 4, 0.9));
+}
+.advantages__products__card__image {
+  backface-visibility: hidden;
 }
 
 /*# sourceMappingURL=main.css.map */

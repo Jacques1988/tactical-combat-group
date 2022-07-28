@@ -1,0 +1,30 @@
+@use "../../abstracts/variables" as *;
+@use "../../base/index" as *;
+@use "../../components/index" as *;
+@use "../../layout/index" as *;
+
+.advantages{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:100%;
+    min-height:100vh;
+    padding:50px;
+    background-image: $overlay_primary,url("../img/soldier_background.jpg"), ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+    &__products{
+        padding:50px 0px;
+
+        &__card{
+            background-image: $overlay_primary;
+
+
+            &__image{
+                backface-visibility: hidden;
+            }
+        }
+    }
+}

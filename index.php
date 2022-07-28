@@ -79,6 +79,21 @@
                 </div>
             </div>
         </section>
+        <section class="advantages">
+            <div class="container">
+                <h1 class="heading">Was du bei uns lernst:</h1>
+                <div class="advantages__products">
+                    <div class="scene">
+                        <div class="card advantages__products__card">
+                            <img class="advantages__products__card__image" src="./img/members/heino.jpg" alt="Soldat visiert Ziel an">
+                            <p class="card__text--front">Taktisches agieren mit Kurz und Langwaffe</p>
+                        </div>
+                    </div>
+                    <div class="scene"></div>
+                    <div class="scene"></div>
+                </div>
+            </div>
+        </section>
     </main>
 
 
