@@ -63,8 +63,8 @@ img {
   background-color: #2C4C28;
   padding: 50px 0;
   opacity: 0;
-  transition: opacity 0.375s ease-in-out, z-index 1.5s ease;
-  z-index: -10;
+  transition: opacity 0.375s ease-in-out, z-index 0.375s ease-in-out;
+  z-index: -2;
 }
 @media screen and (max-width: 750px) {
   .header__navigation__menu {
