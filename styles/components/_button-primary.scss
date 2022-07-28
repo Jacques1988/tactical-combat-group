@@ -21,6 +21,12 @@
         max-width:400px;
     }
 
+    &--header-link{
+        @media screen and(max-width:#{$smartphoneSize}){
+            display:none;
+        }
+    }
+
     &:hover{
         color:$mainGreen;
         background-color:$white;

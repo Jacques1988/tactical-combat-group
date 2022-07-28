@@ -35,7 +35,7 @@
             <a class="header__navigation__link" href="index.php">
                 <img class="logo header__navigation__link__logo" src="./img/Logo_transparent.png" alt="Captain's Pride tactical combat group">
             </a>
-            <a class="button-primary button-primary--on-white button-primary--link" href="#">Jetzt anmelden</a>
+            <a class="button-primary button-primary--on-white button-primary--link button-primary--header-link" href="#">Jetzt anmelden</a>
         </nav>
 
         <div class="container">

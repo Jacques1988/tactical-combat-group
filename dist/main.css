@@ -148,6 +148,11 @@ img {
 .button-primary--link {
   max-width: 400px;
 }
+@media screen and (max-width: 750px) {
+  .button-primary--header-link {
+    display: none;
+  }
+}
 .button-primary:hover {
   color: #2C4C28;
   background-color: whitesmoke;
