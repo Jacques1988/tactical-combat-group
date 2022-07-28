@@ -105,6 +105,7 @@
                         </div>
                     </div>
                 </div>
+                <a class="button-primary button-primary--on-white button-primary--link" href="#">Jetzt anmelden</a>
             </div>
         </section>
     </main>

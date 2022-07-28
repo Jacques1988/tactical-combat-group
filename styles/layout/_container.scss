@@ -16,7 +16,7 @@
         flex-direction:column;
 
         @media screen and(max-width:$tabletSize){
-            padding-bottom:50px;
+            padding:50px;
             align-items:center;
             text-align:center;
         }

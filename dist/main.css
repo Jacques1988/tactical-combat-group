@@ -326,7 +326,7 @@ img {
 }
 @media screen and (max-width: 1200px) {
   .container__content {
-    padding-bottom: 50px;
+    padding: 50px;
     align-items: center;
     text-align: center;
   }
@@ -437,6 +437,11 @@ img {
     height: 500px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .presentation__design-element {
+    margin-bottom: 30px;
+  }
+}
 .presentation__design-element:hover {
   transform: rotateY(180deg);
 }
@@ -473,7 +478,7 @@ img {
   align-items: flex-start;
   width: 100%;
   min-height: 100vh;
-  padding: 50px;
+  padding: 50px 0;
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(2, 32, 4, 0.9)), url("../img/soldier_background.jpg");
   background-position: center center;
   background-size: cover;
@@ -486,8 +491,18 @@ img {
   width: 100%;
   padding: 50px 0px;
 }
+@media screen and (max-width: 1200px) {
+  .advantages__products {
+    flex-direction: column;
+  }
+}
 .advantages__products__card {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(2, 32, 4, 0.9));
+}
+@media screen and (max-width: 1200px) {
+  .advantages__products__card {
+    margin: 30px 0 30px 0;
+  }
 }
 .advantages__products__card__backside-description {
   display: flex;
