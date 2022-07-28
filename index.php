@@ -108,11 +108,12 @@
                 <a class="button-primary button-primary--on-white button-primary--link" href="#">Jetzt anmelden</a>
             </div>
         </section>
+        <section class="contact">
+            <div class="container">
+                
+            </div>
+        </section>
     </main>
-
-
-
-
     <script src="./scripts/open_menu.js"></script>
 </body>
 
