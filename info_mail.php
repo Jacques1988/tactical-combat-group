@@ -21,7 +21,14 @@ if(password_verify($eingabe,$_POST["bildtext"])){
     mail($recipient, $name, $phoneNumber, $message, implode("\r\n",$headers));
     header('Location: ' . $redirect);
 }else{
-    header('Location: ' . $tryAgain); 
+    /* header('Location: ' . $tryAgain);  */
+    echo "Es ist ein Fehler aufgetreten";
+    var_dump($sender);
+    var_dump($name);
+    var_dump($phoneNumber);
+    var_dump($message);
+    var_dump($eingabe);
+    var_dump($_POST['bildtext']);
 }
 ?>
     
