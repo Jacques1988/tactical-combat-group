@@ -35,7 +35,7 @@
             <a class="header__navigation__link" href="index.php">
                 <img class="logo header__navigation__link__logo" src="./img/Logo_transparent.png" alt="Captain's Pride tactical combat group">
             </a>
-            <a class="button-primary button-primary--on-white button-primary--link button-primary--header-link" href="#">Jetzt anmelden</a>
+            <a class="button-primary button-primary--link button-primary--header-link" href="#">Jetzt anmelden</a>
         </nav>
 
         <div class="container">
@@ -124,8 +124,11 @@
                     <textarea required class="form__textarea" placeholder="Deine Nachricht"></textarea>
                     </div>
                     <img src="./captcha.png" style="width:300px; height:75px;">
-                    <input type="checkbox">
-                    <p class="agb-text">Ich habe die Datenschutzrichtlinien gelesen und bin damit einverstanden das meine Daten ausschließlich zum Zweck der Weiterverarbeitung meiner Anfrage verwendet wird</p>
+                    <div class="form__agb-container">
+                    <input required class="form__agb-container__checkbox" type="checkbox">
+                    <p class="form__agb-container__text">Ich habe die Datenschutzrichtlinien gelesen und bin damit einverstanden das meine Daten ausschließlich zum Zweck der Weiterverarbeitung meiner Anfrage verwendet wird</p>
+                    <button type="submit" class="button-primary button-primary--link" href="#">Nachricht senden</button>
+                    </div>
                 </form>
             </div>
         </section>

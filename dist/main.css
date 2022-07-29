@@ -144,6 +144,7 @@ img {
   letter-spacing: 2px;
   cursor: pointer;
   margin-top: 30px;
+  outline: none;
 }
 .button-primary--link {
   max-width: 400px;
@@ -380,7 +381,7 @@ img {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 500px;
+  /* height:500px; */
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(2, 32, 4, 0.9)), url("../img/G3.png");
   background-repeat: no-repeat, no-repeat;
   background-size: contain, contain;
@@ -416,6 +417,23 @@ img {
   font-weight: 700;
   text-align: center;
   margin: 16px;
+}
+.form__agb-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+}
+.form__agb-container__checkbox {
+  width: 25px;
+  height: 25px;
+  margin-right: 25px;
+}
+.form__agb-container__text {
+  color: whitesmoke;
+  max-width: 500px;
+  font-family: "roboto", sans-serif;
 }
 
 .header {
