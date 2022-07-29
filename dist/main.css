@@ -624,16 +624,20 @@ img {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 300px;
+  min-height: 300px;
   background-color: #2C4C28;
 }
 .footer__socialmedia {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100px;
+  width: 150px;
   height: 50px;
-  background-color: black;
+}
+@media screen and (max-width: 750px) {
+  .footer__socialmedia {
+    margin: 16px;
+  }
 }
 .footer__slogan {
   display: flex;

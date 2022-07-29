@@ -137,14 +137,19 @@
     </main>
     <footer class="footer">
         <div class="container container--row">
-            <div class="footer__socialmedia"></div>
+            <div class="footer__socialmedia">
+                <a href="#"><img src="./img/fb.png"></a>
+                <a href="#"><img src="./img/insta.png"></a>
+                <a href="#"><img src="./img/yt.png"></a>
+            </div>
             <div class="footer__slogan">
-                <h1>-Captain's Pride Group-</h1>
+                <a class="footer__links__link" href="https://captains-pride.com/">-Captain's Pride Group-</a>
                 <h2>gemeinsam stark</h2>
             </div>
             <div class="footer__links">
                 <a class="footer__links__link" href="#">Impressum</a>
                 <a class="footer__links__link" href="#">Datenschutz</a>
+                <a class="footer__links__link" href="https://captains-web.com/">@copy Captains Web 2022</a>
             </div>
         </div>
     </footer>
