@@ -386,6 +386,26 @@ img {
   background-repeat: center center, center center;
   padding: 50px 0;
 }
+.form__input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+}
+.form__input-container__input {
+  border: 1px solid #2C4C28;
+  background-color: whitesmoke;
+  color: #2C4C28;
+  font-size: 1rem;
+  font-family: "roboto";
+  width: 100%;
+  height: 50px;
+  margin: 16px;
+  text-align: center;
+  font-weight: 700;
+}
+
 .header {
   width: 100%;
   height: 100vh;

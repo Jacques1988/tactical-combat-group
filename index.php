@@ -113,12 +113,12 @@
             <h1 class="heading heading--green">Schreibe uns eine Nachricht</h1>
                 <form class="form" action="send_messasge.php" method="post">
                     <div class="form__input-container">
-                        <input type="text" placeholder="Dein Name">
-                        <input type="text" placeholder="Deine Telefonnummer">
+                        <input class="form__input-container__input" type="text" placeholder="Dein Name">
+                        <input class="form__input-container__input" type="text" placeholder="Deine Telefonnummer">
                     </div>
                     <div class="form__input-container">
-                        <input type="text" placeholder="Deine E-Mail">
-                        <input type="text" placeholder="Und einmal bitte das Captcha eingeben">
+                        <input class="form__input-container__input" type="text" placeholder="Deine E-Mail">
+                        <input class="form__input-container__input" type="text" placeholder="Bitte hier das Captcha eingeben">
                     </div>
                     <textarea>
 
