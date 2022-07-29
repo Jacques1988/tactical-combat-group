@@ -91,14 +91,14 @@
                         </div>
                     </div>
                     <div class="scene">
-                    <div class="card advantages__products__card">
+                        <div class="card advantages__products__card">
                             <img class="advantages__products__card__image" src="./img/nahkampf.jpg" alt="Im Nahkampf immer Bereit">
                             <p class="card__text--front">Ausgebildet im Nahkampf ohne Waffe</p>
                             <p class="advantages__products__card__backside-description">Ohne Waffen zu kämpfen bedeutet, sich nicht nur auf seine physische Fitness verlassen zu können, sondern auch den Gegner strategisch dorthin zu positionieren, wo man ihn am besten bearbeiten kann.<br> <br> Wir vermitteln den MMA Sport, da dieser die effektivsten Techniken aus allen Kampfsportarten vereint und optimale Ergebnisse liefert, die zum eigenen Schutz beitragen</p>
                         </div>
                     </div>
                     <div class="scene">
-                    <div class="card advantages__products__card">
+                        <div class="card advantages__products__card">
                             <img class="advantages__products__card__image" src="./img/bushcraft.jpg" alt="Feuer machen ohne Feuerzeug">
                             <p class="card__text--front">Intensives Outdoortraining</p>
                             <p class="advantages__products__card__backside-description">Sich in der Natur zurecht zu finden, gehört zu den essentiellen Fähigkeiten, die das Leben unserer Spezies über Generationen gesichert haben. <br> <br> Durch intensive Outdoorschulungen im Bushcraft stil, vermitteln wir das Wissen, das uns nicht nur dazu befähigt draußen zu überleben, sondern auch einen gewissen Komfort zu erreichen.</p>
@@ -110,7 +110,23 @@
         </section>
         <section class="contact">
             <div class="container">
-                
+            <h1 class="heading heading--green">Schreibe uns eine Nachricht</h1>
+                <form class="form" action="send_messasge.php" method="post">
+                    <div class="form__input-container">
+                        <input type="text" placeholder="Dein Name">
+                        <input type="text" placeholder="Deine Telefonnummer">
+                    </div>
+                    <div class="form__input-container">
+                        <input type="text" placeholder="Deine E-Mail">
+                        <input type="text" placeholder="Und einmal bitte das Captcha eingeben">
+                    </div>
+                    <textarea>
+
+                    </textarea>
+                    <img src="./captcha.png" style="width:300px; height:75px;">
+                    <input type="checkbox">
+                    <p class="agb-text">Ich habe die Datenschutzrichtlinien gelesen und bin damit einverstanden das meine Daten ausschließlich zum Zweck der Weiterverarbeitung meiner Anfrage verwendet wird</p>
+                </form>
             </div>
         </section>
     </main>
