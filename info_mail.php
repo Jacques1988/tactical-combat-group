@@ -1,7 +1,7 @@
 <?php
 // Daten über den Empfänger der Email und die Umleitung auf Seite nach Senden der EMail
 $recipient = 'info@pride-warriors.com';
-$redirect = 'sendedMessage.php';
+$redirect = 'index.php#contact';
 $tryAgain = 'index.php#contact';
 
 //Daten über den Absender der Email
