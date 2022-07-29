@@ -381,11 +381,10 @@ img {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  /* height:500px; */
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(2, 32, 4, 0.9)), url("../img/G3.png");
-  background-repeat: no-repeat, no-repeat;
+  background-position: center center, center center;
   background-size: contain, contain;
-  background-repeat: center center, center center;
+  background-repeat: no-repeat, no-repeat;
   padding: 50px 0;
 }
 .form__input-container {
@@ -394,12 +393,18 @@ img {
   align-items: center;
   width: 50%;
 }
+@media screen and (max-width: 1200px) {
+  .form__input-container {
+    flex-direction: column;
+  }
+}
 .form__input-container__input {
   border: 1px solid #2C4C28;
   background-color: whitesmoke;
   color: #2C4C28;
   font-size: 1rem;
   font-family: "roboto";
+  min-width: 300px;
   width: 100%;
   height: 50px;
   margin: 16px;
@@ -412,6 +417,7 @@ img {
   color: #2C4C28;
   font-size: 1rem;
   font-family: "roboto";
+  min-width: 300px;
   width: 100%;
   height: 100px;
   font-weight: 700;
@@ -425,6 +431,11 @@ img {
   width: 100%;
   padding: 16px;
 }
+@media screen and (max-width: 1200px) {
+  .form__agb-container {
+    flex-direction: column;
+  }
+}
 .form__agb-container__checkbox {
   width: 25px;
   height: 25px;
@@ -434,6 +445,11 @@ img {
   color: whitesmoke;
   max-width: 500px;
   font-family: "roboto", sans-serif;
+}
+@media screen and (max-width: 1200px) {
+  .form__agb-container__text {
+    text-align: center;
+  }
 }
 
 .header {
@@ -596,9 +612,9 @@ img {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: whitesmoke;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 /*# sourceMappingURL=main.css.map */

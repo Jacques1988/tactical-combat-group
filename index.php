@@ -35,7 +35,7 @@
             <a class="header__navigation__link" href="index.php">
                 <img class="logo header__navigation__link__logo" src="./img/Logo_transparent.png" alt="Captain's Pride tactical combat group">
             </a>
-            <a class="button-primary button-primary--link button-primary--header-link" href="#">Jetzt anmelden</a>
+            <a class="button-primary button-primary--link button-primary--header-link" href="#contact">Kontakt</a>
         </nav>
 
         <div class="container">
@@ -75,7 +75,7 @@
                     <p class="text-panel text-panel--brown">diskutiere mit uns die neuesten Trends</p>
                     <p class="text-panel text-panel--brown">erhalte Vorteile bei Events und Seminaren</p>
                     <p class="text-panel text-panel--brown">lerne neue Freunde kennen, die immer zusammenhalten</p>
-                    <a class="button-primary button-primary--on-white button-primary--link" href="#">Jetzt anmelden</a>
+                    <a class="button-primary button-primary--on-white button-primary--link" href="#contact">Kontakt</a>
                 </div>
             </div>
         </section>
@@ -105,10 +105,10 @@
                         </div>
                     </div>
                 </div>
-                <a class="button-primary button-primary--link" href="#">Jetzt anmelden</a>
+                <a class="button-primary button-primary--link" href="#phone">Termin vereinbaren</a>
             </div>
         </section>
-        <section class="contact">
+        <section id="contact" class="contact">
             <div class="container">
                 <h1 class="heading heading--green">Schreibe uns eine Nachricht</h1>
                 <form class="form" action="send_messasge.php" method="post">
@@ -130,6 +130,8 @@
                     <button type="submit" class="button-primary button-primary--link" href="#">Nachricht senden</button>
                     </div>
                 </form>
+                <h1 id="phone" class="heading heading--green">Oder rufe einfach an um ein Probetraining zu vereinbaren</h1>
+                <a class="button-primary button-primary--on-white button-primary--link" href="tel:+4915735291696">Direkt anrufen</a>
             </div>
         </section>
     </main>
