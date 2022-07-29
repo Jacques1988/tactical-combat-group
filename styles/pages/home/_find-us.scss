@@ -1,0 +1,18 @@
+@use "../../abstracts/variables" as *;
+@use "../../base/index" as *;
+@use "../../components/index" as *;
+@use "../../layout/index" as *;
+
+
+
+.find-us{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:$mainGreen;
+    padding:100px 0;
+
+    &__map{
+        margin-top:50px;
+    }
+}

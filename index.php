@@ -1,3 +1,7 @@
+<?php
+require "./buildCaptcha.php";
+?>
+
 <!DOCTYPE html>
 <html lang="de">
 
@@ -111,7 +115,7 @@
         <section id="contact" class="contact">
             <div class="container">
                 <h1 class="heading heading--green">Schreibe uns eine Nachricht</h1>
-                <form class="form" action="send_messasge.php" method="post">
+                <form class="form" action="./info_mail.php" method="post">
                     <div class="form__input-container">
                         <input required class="form__input-container__input" type="text" placeholder="Dein Name">
                         <input required class="form__input-container__input" type="text" placeholder="Deine Telefonnummer">
@@ -132,6 +136,12 @@
                 </form>
                 <h1 id="phone" class="heading heading--green">Oder rufe einfach an um ein Probetraining zu vereinbaren</h1>
                 <a class="button-primary button-primary--on-white button-primary--link" href="tel:+4915735291696">Direkt anrufen</a>
+            </div>
+        </section>
+        <section class="find-us">
+            <div class="container">
+                <h1 class="heading">So findest du zu uns</h1>
+                <iframe class="find-us__map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9263.484517576044!2d13.6473421!3d54.5181341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd05033c7cc419af6!2sCaptain&#39;s%20Pride%20Warriors!5e0!3m2!1sde!2sde!4v1659065259901!5m2!1sde!2sde" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
     </main>

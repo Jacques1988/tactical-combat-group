@@ -1,0 +1,27 @@
+<?php
+// Daten über den Empfänger der Email und die Umleitung auf Seite nach Senden der EMail
+$recipient = 'info@pride-warriors.com';
+$redirect = 'sendedMessage.php';
+$tryAgain = 'index.php#contact';
+
+//Daten über den Absender der Email
+$sender = htmlentities($_POST["email"]);
+$name = htmlentities($_POST["name"]) . "," . $sender;
+$phoneNumber = "Meine Telefonnummer: " . htmlentities($_POST["phone"]);
+$message = htmlentities($_POST["message"]);
+$eingabe = htmlentities($_POST["captcha"]);
+
+$headers = [];
+$headers[] = "MIME-Version: 1.0";
+$headers[] = "Content-type: text/plain; charset=utf-8";
+$headers[] = "From:" . $sender;
+$headers[] = "X-Mailer: PHP/".phpversion();
+
+if(password_verify($eingabe,$_POST["bildtext"])){
+    mail($recipient, $name, $phoneNumber, $message, implode("\r\n",$headers));
+    header('Location: ' . $redirect);
+}else{
+    header('Location: ' . $tryAgain); 
+}
+?>
+    
