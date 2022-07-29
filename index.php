@@ -117,15 +117,15 @@ require "./buildCaptcha.php";
                 <h1 class="heading heading--green">Schreibe uns eine Nachricht</h1>
                 <form class="form" action="./info_mail.php" method="post">
                     <div class="form__input-container">
-                        <input required class="form__input-container__input" type="text" placeholder="Dein Name">
-                        <input required class="form__input-container__input" type="text" placeholder="Deine Telefonnummer">
+                        <input required class="form__input-container__input" type="text" name="name" placeholder="Dein Name">
+                        <input required class="form__input-container__input" type="text" name="phone" placeholder="Deine Telefonnummer">
                     </div>
                     <div class="form__input-container">
-                        <input required class="form__input-container__input" type="text" placeholder="Deine E-Mail">
-                        <input required class="form__input-container__input" type="text" placeholder="Bitte hier das Captcha eingeben">
+                        <input required class="form__input-container__input" type="text" name="email" placeholder="Deine E-Mail">
+                        <input required class="form__input-container__input" type="text" name="captcha" placeholder="Bitte hier das Captcha eingeben">
                     </div>
                     <div class="form__input-container">
-                        <textarea required class="form__textarea" placeholder="Deine Nachricht"></textarea>
+                        <textarea required class="form__textarea" name="message" placeholder="Deine Nachricht"></textarea>
                     </div>
                     <img src="./captcha.png" style="width:300px; height:75px;">
                     <div class="form__agb-container">
