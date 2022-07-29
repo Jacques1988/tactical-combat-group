@@ -121,13 +121,13 @@
                         <input required class="form__input-container__input" type="text" placeholder="Bitte hier das Captcha eingeben">
                     </div>
                     <div class="form__input-container">
-                    <textarea required class="form__textarea" placeholder="Deine Nachricht"></textarea>
+                        <textarea required class="form__textarea" placeholder="Deine Nachricht"></textarea>
                     </div>
                     <img src="./captcha.png" style="width:300px; height:75px;">
                     <div class="form__agb-container">
-                    <input required class="form__agb-container__checkbox" type="checkbox">
-                    <p class="form__agb-container__text">Ich habe die Datenschutzrichtlinien gelesen und bin damit einverstanden das meine Daten ausschließlich zum Zweck der Weiterverarbeitung meiner Anfrage verwendet wird</p>
-                    <button type="submit" class="button-primary button-primary--link" href="#">Nachricht senden</button>
+                        <input required class="form__agb-container__checkbox" type="checkbox">
+                        <p class="form__agb-container__text">Ich habe die Datenschutzrichtlinien gelesen und bin damit einverstanden das meine Daten ausschließlich zum Zweck der Weiterverarbeitung meiner Anfrage verwendet wird</p>
+                        <button type="submit" class="button-primary button-primary--link" href="#">Nachricht senden</button>
                     </div>
                 </form>
                 <h1 id="phone" class="heading heading--green">Oder rufe einfach an um ein Probetraining zu vereinbaren</h1>
@@ -135,6 +135,19 @@
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="container container--row">
+            <div class="footer__socialmedia"></div>
+            <div class="footer__slogan">
+                <h1>-Captain's Pride Group-</h1>
+                <h2>gemeinsam stark</h2>
+            </div>
+            <div class="footer__links">
+                <a class="footer__links__link" href="#">Impressum</a>
+                <a class="footer__links__link" href="#">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
     <script src="./scripts/open_menu.js"></script>
 </body>
 

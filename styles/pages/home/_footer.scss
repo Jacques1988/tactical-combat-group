@@ -1,0 +1,53 @@
+@use "../../abstracts/variables" as *;
+@use "../../base/index" as *;
+@use "../../components/index" as *;
+@use "../../layout/index" as *;
+
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    height:300px;
+    background-color: $mainGreen;
+
+    &__socialmedia{
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        width:100px;
+        height:50px;
+        background-color:black;
+    }
+
+    &__slogan{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'badsuabia', sans-serif;
+        color:$white;
+        font-size:1rem;
+        font-weight:400;
+    }
+
+    &__links{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        
+        &__link{
+            color:$white;
+            font-family: 'badsuabia',sans-serif;
+            font-size:0.95rem;
+            padding:25px;
+
+            &:hover{
+                background-color: $alternativeBrown;
+            }
+        }
+    }
+}
