@@ -180,7 +180,8 @@ img {
 @media screen and (max-width: 1600px) {
   .heading {
     font-size: 4rem;
-    max-width: 600px;
+    /* max-width:600px; */
+    /* Hier ist die Frage ob das sein muss? */
   }
 }
 @media screen and (max-width: 1000px) {
@@ -391,7 +392,6 @@ img {
   justify-content: center;
   align-items: center;
   width: 50%;
-  height: 100px;
 }
 .form__input-container__input {
   border: 1px solid #2C4C28;
@@ -404,6 +404,18 @@ img {
   margin: 16px;
   text-align: center;
   font-weight: 700;
+}
+.form__textarea {
+  border: 1px solid #2C4C28;
+  background-color: whitesmoke;
+  color: #2C4C28;
+  font-size: 1rem;
+  font-family: "roboto";
+  width: 100%;
+  height: 100px;
+  font-weight: 700;
+  text-align: center;
+  margin: 16px;
 }
 
 .header {

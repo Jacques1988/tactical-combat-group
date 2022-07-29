@@ -110,19 +110,19 @@
         </section>
         <section class="contact">
             <div class="container">
-            <h1 class="heading heading--green">Schreibe uns eine Nachricht</h1>
+                <h1 class="heading heading--green">Schreibe uns eine Nachricht</h1>
                 <form class="form" action="send_messasge.php" method="post">
                     <div class="form__input-container">
-                        <input class="form__input-container__input" type="text" placeholder="Dein Name">
-                        <input class="form__input-container__input" type="text" placeholder="Deine Telefonnummer">
+                        <input required class="form__input-container__input" type="text" placeholder="Dein Name">
+                        <input required class="form__input-container__input" type="text" placeholder="Deine Telefonnummer">
                     </div>
                     <div class="form__input-container">
-                        <input class="form__input-container__input" type="text" placeholder="Deine E-Mail">
-                        <input class="form__input-container__input" type="text" placeholder="Bitte hier das Captcha eingeben">
+                        <input required class="form__input-container__input" type="text" placeholder="Deine E-Mail">
+                        <input required class="form__input-container__input" type="text" placeholder="Bitte hier das Captcha eingeben">
                     </div>
-                    <textarea>
-
-                    </textarea>
+                    <div class="form__input-container">
+                    <textarea required class="form__textarea" placeholder="Deine Nachricht"></textarea>
+                    </div>
                     <img src="./captcha.png" style="width:300px; height:75px;">
                     <input type="checkbox">
                     <p class="agb-text">Ich habe die Datenschutzrichtlinien gelesen und bin damit einverstanden das meine Daten ausschließlich zum Zweck der Weiterverarbeitung meiner Anfrage verwendet wird</p>

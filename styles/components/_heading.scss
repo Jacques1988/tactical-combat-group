@@ -17,7 +17,7 @@
 
     @media screen and(max-width:#{$laptopSize}){
         font-size: 4rem;
-        max-width:600px;
+        /* max-width:600px; */ /* Hier ist die Frage ob das sein muss? */
     }
 
     @media screen and(max-width:#{$smallViewport}){
