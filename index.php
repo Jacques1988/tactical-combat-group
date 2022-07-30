@@ -47,7 +47,7 @@ require "./buildCaptcha.php";
         <div class="container">
             <div class="header__teaser">
                 <h1 class="heading">
-                    Willkommen im Airsoft Team von Captain's Pride Tactical
+                    Willkommen im Airsoft Team von Captain's Pride Tactical; 
                 </h1>
                 <div class="scene">
                     <div class="card header__teaser--card">
