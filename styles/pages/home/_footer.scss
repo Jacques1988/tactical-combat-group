@@ -20,7 +20,7 @@
         width:150px;
         height:50px;
 
-        @media screen and(max-width:#{$smartphoneSize}){
+        @media screen and (max-width:#{$smartphoneSize}){
             margin:16px;
         }
     }

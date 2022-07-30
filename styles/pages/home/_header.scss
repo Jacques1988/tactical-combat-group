@@ -1,5 +1,5 @@
 @use "../../abstracts/variables" as *;
-@use "../../base/index" as *;
+/* @use "../../base/index" as *; */
 @use "../../components/index" as *;
 @use "../../layout/index" as *;
 
@@ -20,15 +20,15 @@
         width:100%;
         padding-top:50px;
 
-        @media screen and(max-width:#{$laptopSize}){
+        @media screen and (max-width:#{$laptopSize}){
             padding-top:25px;
         }
 
-        @media screen and(max-width:#{$smallViewport}){
+        @media screen and (max-width:#{$smallViewport}){
             padding-top:100px;
         }
 
-        @media screen and(max-width:#{$smartphoneSize}){
+        @media screen and (max-width:#{$smartphoneSize}){
             flex-direction: column;
             padding-top:0;
         }

@@ -23,7 +23,7 @@
     }
 
     &--header-link{
-        @media screen and(max-width:#{$smartphoneSize}){
+        @media screen and (max-width:#{$smartphoneSize}){
             display:none;
         }
     }

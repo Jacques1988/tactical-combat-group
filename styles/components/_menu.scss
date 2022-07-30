@@ -33,7 +33,7 @@
     transition: opacity 0.375s ease-in-out, z-index 0.375s ease-in-out;
     z-index:-2;
 
-    @media screen and(max-width:#{$smartphoneSize}){
+    @media screen and (max-width:#{$smartphoneSize}){
             width:100vw;
     }
     
@@ -45,7 +45,7 @@
         color:currentColor;
         cursor:pointer;
 
-        @media screen and(max-width:#{$laptopSize}){
+        @media screen and (max-width:#{$laptopSize}){
             font-size:1.5rem;
         }
     }
@@ -86,7 +86,7 @@
                 width:100%;
                 padding:0.5rem 0;
 
-                @media screen and(max-width:#{$laptopSize}){
+                @media screen and (max-width:#{$laptopSize}){
                     font-size:1.5rem;
                 }
             }

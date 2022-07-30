@@ -22,14 +22,14 @@
         width:100%;
         padding:50px 0px;
 
-        @media screen and(max-width:$tabletSize){
+        @media screen and (max-width:$tabletSize){
             flex-direction: column;
         }
 
         &__card{
             background-image: $overlay_primary;
 
-            @media screen and(max-width:$tabletSize){
+            @media screen and (max-width:$tabletSize){
                 margin:30px 0 30px 0;
             }
 

@@ -7,11 +7,11 @@
     position:relative;
     padding:0 $laptopPadding;
 
-    @media screen and(max-width:#{$tabletSize}){
+    @media screen and (max-width:#{$tabletSize}){
         padding:0 $tabletPadding;
     }
 
-    @media screen and(max-width:#{$smartphoneSize}){
+    @media screen and (max-width:#{$smartphoneSize}){
         padding:30px $smartphonePadding 25px $smartphonePadding;
     }
 
@@ -19,12 +19,12 @@
         width:700px;
         height:300px;
 
-        @media screen and(max-width:#{$laptopSize}){
+        @media screen and (max-width:#{$laptopSize}){
             width:450px;
             height:200px;
         }
 
-        @media screen and(max-width:#{$smallViewport}){
+        @media screen and (max-width:#{$smallViewport}){
             width:250px;
             height:100px;
         }
@@ -33,7 +33,7 @@
     &--button-primary{
         margin-top:30px;
 
-        @media screen and(max-width:#{$smartphoneSize}){
+        @media screen and (max-width:#{$smartphoneSize}){
             display:none;
         }
     }

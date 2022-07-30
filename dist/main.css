@@ -1,33 +1,5 @@
 /* ############################################################ RESPONSIVE DESIGN SIZES ######################################################################### */
 /* ###########################################################          COLORS          ######################################################################### */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-@font-face {
-  font-family: "badsuabia";
-  src: url(../fonts/BadSuabiaSwing-Regular.otf) format("opentype");
-}
-@font-face {
-  font-family: "roboto";
-  src: url(../../fonts/Roboto-Medium.ttf) format("opentype");
-}
 .logo {
   object-fit: cover;
   width: 100%;
@@ -181,8 +153,6 @@ img {
 @media screen and (max-width: 1600px) {
   .heading {
     font-size: 4rem;
-    /* max-width:600px; */
-    /* Hier ist die Frage ob das sein muss? */
   }
 }
 @media screen and (max-width: 1000px) {
@@ -454,6 +424,7 @@ img {
   }
 }
 
+/* @use "../../base/index" as *; */
 .header {
   width: 100%;
   height: 100vh;
@@ -487,6 +458,34 @@ img {
   }
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: "badsuabia";
+  src: url(../fonts/BadSuabiaSwing-Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: "roboto";
+  src: url(../../fonts/Roboto-Medium.ttf) format("opentype");
+}
 .presentation {
   display: flex;
   justify-content: space-between;

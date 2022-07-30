@@ -10,22 +10,21 @@
     &--green{
         color:$mainGreen;
 
-        @media screen and(max-width:$laptopSize){
+        @media screen and (max-width:$laptopSize){
             font-size:4rem;
         }
     }
 
-    @media screen and(max-width:#{$laptopSize}){
+    @media screen and (max-width:#{$laptopSize}){
         font-size: 4rem;
-        /* max-width:600px; */ /* Hier ist die Frage ob das sein muss? */
     }
 
-    @media screen and(max-width:#{$smallViewport}){
+    @media screen and (max-width:#{$smallViewport}){
         font-size:3.5rem;
         padding-right:16px;
     }
 
-    @media screen and(max-width:#{$smartphoneSize}){
+    @media screen and (max-width:#{$smartphoneSize}){
         text-align:center;
         font-size:2rem;
         width:100%;
