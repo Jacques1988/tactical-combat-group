@@ -32,10 +32,10 @@ require "./buildCaptcha.php";
                         </div>
                         <span onclick="close_menu()" class="header__navigation__menu__close-button">X</span>
                     </div>
-                    <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#">Home</a></li>
-                    <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#" href="#">Wer wir sind</a></li>
-                    <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#" href="#">Shop</a></li>
-                    <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#" href="#">Login</a></li>
+                    <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#get_member">Tritt uns bei</a></li>
+                    <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#training">Unser Training</a></li>
+                    <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="shop.php">Shop</a></li>
+                    <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#">Login</a></li>
                 </ul>
             </div>
             <a class="header__navigation__link" href="index.php">
@@ -67,7 +67,7 @@ require "./buildCaptcha.php";
         </div>
     </header>
     <main class="main">
-        <section class="presentation">
+        <section id="get_member" class="presentation">
             <div class="container container--row">
                 <div class="scene">
                     <div class="presentation__design-element">
@@ -87,7 +87,7 @@ require "./buildCaptcha.php";
                 </div>
             </div>
         </section>
-        <section class="advantages">
+        <section id="training" class="advantages">
             <div class="container">
                 <h1 class="heading">Was du bei uns lernst:</h1>
                 <div class="advantages__products">
