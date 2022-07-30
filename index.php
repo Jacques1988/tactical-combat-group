@@ -46,7 +46,7 @@ require "./buildCaptcha.php";
 
         <div class="container">
             <div class="header__teaser">
-                <h1 class="heading">
+                <h1 class="heading heading--header">
                     Willkommen bei der Captain's Pride tactical Combat Group
                 </h1>
                 <div class="scene">
@@ -139,7 +139,7 @@ require "./buildCaptcha.php";
                         <button type="submit" class="button-primary button-primary--link" href="#">Nachricht senden</button>
                     </div>
                 </form>
-                <h1 id="phone" class="heading heading--green">Oder rufe einfach an um ein Probetraining zu vereinbaren</h1>
+                <h1 id="phone" class="heading heading--green heading--second">Oder rufe einfach an um ein Probetraining zu vereinbaren</h1>
                 <a class="button-primary button-primary--on-white button-primary--link" href="tel:+4915735291696">Direkt anrufen</a>
             </div>
         </section>
