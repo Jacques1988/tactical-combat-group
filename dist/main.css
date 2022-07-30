@@ -254,12 +254,14 @@ img {
   font-size: 1.6rem;
   text-align: center;
   transform: translateZ(50px);
-  backface-visibility: hidden;
 }
 @media screen and (max-width: 1600px) {
   .card__text--front, .card__text--back {
     width: 275px;
   }
+}
+.card__text--front-advantages, .card__text--back-advantages {
+  backface-visibility: hidden;
 }
 .card__text--back {
   transform: translateZ(-50px) rotateY(180deg);

@@ -53,14 +53,19 @@
         font-size:1.6rem;
         text-align:center;
         transform: translateZ(50px);
-        backface-visibility: hidden;
+        
 
         @media screen and (max-width:#{$laptopSize}){
             width:275px;
         }
-    }
+
+        &-advantages{
+            backface-visibility: hidden;
+        }
+    }    
 
     &__text--back{
         transform: translateZ(-50px) rotateY(180deg);
     }
 }
+

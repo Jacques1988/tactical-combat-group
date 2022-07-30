@@ -94,21 +94,21 @@ require "./buildCaptcha.php";
                     <div class="scene">
                         <div class="card advantages__products__card">
                             <img class="advantages__products__card__image" src="./img/members/heino.jpg" alt="Soldat visiert Ziel an">
-                            <p class="card__text--front">Taktisches agieren mit Kurz und Langwaffe</p>
+                            <p class="card__text--front card__text--front-advantages">Taktisches agieren mit Kurz und Langwaffe</p>
                             <p class="advantages__products__card__backside-description">In unserem Training vermitteln wir den taktischen, als auch den generellen Umgang mit Kurz und Langwaffen, damit du stets weißt, wie du auf dem Airsoftspielfeld agierst um mit deinem Team optimal zusammenarbeiten zu können<br> <br>Dazu gehört der generelle Umgang mit Funk als auch deiner gesamten taktischen Ausrüstung. Das Team hilft dir steht, dich bestens zurecht zu finden </p>
                         </div>
                     </div>
                     <div class="scene">
                         <div class="card advantages__products__card">
                             <img class="advantages__products__card__image" src="./img/nahkampf.jpg" alt="Im Nahkampf immer Bereit">
-                            <p class="card__text--front">Ausgebildet im Nahkampf ohne Waffe</p>
+                            <p class="card__text--front card__text--front-advantages">Ausgebildet im Nahkampf ohne Waffe</p>
                             <p class="advantages__products__card__backside-description">Ohne Waffen zu kämpfen bedeutet, sich nicht nur auf seine physische Fitness verlassen zu können, sondern auch den Gegner strategisch dorthin zu positionieren, wo man ihn am besten bearbeiten kann.<br> <br> Wir vermitteln den MMA Sport, da dieser die effektivsten Techniken aus allen Kampfsportarten vereint und optimale Ergebnisse liefert, die zum eigenen Schutz beitragen</p>
                         </div>
                     </div>
                     <div class="scene">
                         <div class="card advantages__products__card">
                             <img class="advantages__products__card__image" src="./img/bushcraft.jpg" alt="Feuer machen ohne Feuerzeug">
-                            <p class="card__text--front">Intensives Outdoortraining</p>
+                            <p class="card__text--front card__text--front-advantages">Intensives Outdoortraining</p>
                             <p class="advantages__products__card__backside-description">Sich in der Natur zurecht zu finden, gehört zu den essentiellen Fähigkeiten, die das Leben unserer Spezies über Generationen gesichert haben. <br> <br> Durch intensive Outdoorschulungen im Bushcraft stil, vermitteln wir das Wissen, das uns nicht nur dazu befähigt draußen zu überleben, sondern auch einen gewissen Komfort zu erreichen.</p>
                         </div>
                     </div>
