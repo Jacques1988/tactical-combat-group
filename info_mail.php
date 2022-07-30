@@ -1,8 +1,11 @@
 <?php
+
+
 // Daten über den Empfänger der Email und die Umleitung auf Seite nach Senden der EMail
 $recipient = 'info@pride-warriors.com';
 $redirect = 'index.php#contact';
 $tryAgain = 'index.php#contact';
+
 
 //Daten über den Absender der Email
 $sender = htmlentities($_POST["email"]);
@@ -18,11 +21,11 @@ $headers[] = "From:" . $sender;
 $headers[] = "X-Mailer: PHP/".phpversion();
 
 if(password_verify($eingabe,$_POST["bildtext"])){
+    $mail_succesfully_sended = true;
     mail($recipient, $name, $phoneNumber, $message, implode("\r\n",$headers));
     header('Location: ' . $redirect);
 }else{
-   /*  header('Location: ' . $tryAgain);  */
-   echo "Es ist ein Fehler aufgetreten";
+   header('Location: ' . $tryAgain);
 }
 ?>
     

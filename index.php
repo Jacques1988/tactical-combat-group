@@ -1,5 +1,6 @@
 <?php
 require "./buildCaptcha.php";
+
 ?>
 
 <!DOCTYPE html>
@@ -12,6 +13,7 @@ require "./buildCaptcha.php";
     <link rel="icon" type="image/x-png" href="./img/Logo_transparent.png">
 
     <link href="./dist/main.css" rel="stylesheet">
+    <meta name="description" content="airsoft Rügen, airsoftverein Rügen, gotcha Rügen, fightclub Rügen, kampfsport Rügen, captains pride, warriors, selbstverteidigung Rügen, bushcraft auf Rügen, survival auf Rügen, outdoor auf Rügen  " />
     <title>Airsoft auf Rügen</title>
 </head>
 
@@ -44,7 +46,9 @@ require "./buildCaptcha.php";
 
         <div class="container">
             <div class="header__teaser">
-                <h1 class="heading">Willkommen im Airsoft Team von Captain's Pride Tactical</h1>
+                <h1 class="heading">
+                    Willkommen im Airsoft Team von Captain's Pride Tactical
+                </h1>
                 <div class="scene">
                     <div class="card header__teaser--card">
 
@@ -123,7 +127,7 @@ require "./buildCaptcha.php";
                     <div class="form__input-container">
                         <input required class="form__input-container__input" type="text" name="email" placeholder="Deine E-Mail">
                         <input required class="form__input-container__input" type="text" name="captcha" placeholder="Bitte hier das Captcha eingeben">
-                        <input type='hidden' name='bildtext' value='<?php echo password_hash(substr($signs,0,5),PASSWORD_DEFAULT);?>'>
+                        <input type='hidden' name='bildtext' value='<?php echo password_hash(substr($signs, 0, 5), PASSWORD_DEFAULT); ?>'>
                     </div>
                     <div class="form__input-container">
                         <textarea required class="form__textarea" name="message" placeholder="Deine Nachricht"></textarea>
