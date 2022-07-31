@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/main.css" rel="stylesheet">
     <title>Dateschutz</title>
 </head>
 <body>
     <div class="container">
-        <h1>Datenschutz</h1>
+        <h1 class="heading heading--green">Datenschutz</h1>
         <p class="text-panel">
         Wir freuen uns sehr über Ihr Interesse an unserem Unternehmen. Datenschutz hat einen besonders hohen
 Stellenwert für die Geschäftsleitung von Captains-Web. Eine Nutzung der Internetseite pride-warriors.com

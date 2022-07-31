@@ -163,8 +163,8 @@ require "./buildCaptcha.php";
             </div>
             <div class="footer__links">
                 <a class="footer__links__link" href="impressum.php" target="_blank">Impressum</a>
-                <a class="footer__links__link" href="#">Datenschutz</a>
-                <a class="footer__links__link" href="https://captains-web.com/">@copy Captains Web 2022</a>
+                <a class="footer__links__link" href="datenschutz.php" target="_blank">Datenschutz</a>
+                <a class="footer__links__link" href="https://captains-web.com/" target="_blank">@copy Captains Web 2022</a>
             </div>
         </div>
     </footer>
