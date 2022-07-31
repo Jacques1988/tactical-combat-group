@@ -1,0 +1,22 @@
+{
+  "name": "tactical-combat-group",
+  "version": "1.0.0",
+  "description": "#",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacques1988/tactical-combat-group.git"
+  },
+  "author": "captains-web",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacques1988/tactical-combat-group/issues"
+  },
+  "homepage": "https://github.com/Jacques1988/tactical-combat-group#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
