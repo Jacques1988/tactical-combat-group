@@ -162,7 +162,7 @@ require "./buildCaptcha.php";
                 <h2>gemeinsam stark</h2>
             </div>
             <div class="footer__links">
-                <a class="footer__links__link" href="#">Impressum</a>
+                <a class="footer__links__link" href="impressum.php" target="_blank">Impressum</a>
                 <a class="footer__links__link" href="#">Datenschutz</a>
                 <a class="footer__links__link" href="https://captains-web.com/">@copy Captains Web 2022</a>
             </div>
