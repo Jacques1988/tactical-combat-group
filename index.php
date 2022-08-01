@@ -28,7 +28,7 @@ require "./buildCaptcha.php";
                 <ul class="header__navigation__menu__box">
                     <div class="header__navigation__menu__box__teaser">
                         <div class="header__navigation__menu__box__teaser__logo-container">
-                            <img src="./img/Logo.jpg" alt="Captain's Pride Tactical combat group">
+                            <img src="./img/Logo.500w-500h.png" alt="Captain's Pride Tactical combat group">
                         </div>
                         <span onclick="close_menu()" class="header__navigation__menu__close-button">X</span>
                     </div>
@@ -39,7 +39,7 @@ require "./buildCaptcha.php";
                 </ul>
             </div>
             <a class="header__navigation__link" href="index.php">
-                <img class="logo header__navigation__link__logo" src="./img/Logo_transparent.png" alt="Captain's Pride tactical combat group">
+                <img class="logo header__navigation__link__logo" src="./img/Logo_transparent.500w-500h.png" alt="Captain's Pride tactical combat group">
             </a>
             <a class="button-primary button-primary--link button-primary--header-link" href="#contact">Kontakt</a>
         </nav>
