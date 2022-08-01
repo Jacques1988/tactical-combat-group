@@ -28,7 +28,7 @@ require "./buildCaptcha.php";
                 <ul class="header__navigation__menu__box">
                     <div class="header__navigation__menu__box__teaser">
                         <div class="header__navigation__menu__box__teaser__logo-container">
-                            <img src="./img/Logo.500w-500h.png" alt="Captain's Pride Tactical combat group">
+                            <img src="./img/Logo.700w.500w-500h.webp" alt="Captain's Pride Tactical combat group">
                         </div>
                         <span onclick="close_menu()" class="header__navigation__menu__close-button">X</span>
                     </div>
@@ -39,7 +39,7 @@ require "./buildCaptcha.php";
                 </ul>
             </div>
             <a class="header__navigation__link" href="index.php">
-                <img class="logo header__navigation__link__logo" src="./img/Logo_transparent.500w-500h.png" alt="Captain's Pride tactical combat group">
+                <img class="logo header__navigation__link__logo" src="./img/Logo_transparent.500w-500h.500w-500h.webp" alt="Captain's Pride tactical combat group">
             </a>
             <a class="button-primary button-primary--link button-primary--header-link" href="#contact">Kontakt</a>
         </nav>
@@ -53,12 +53,12 @@ require "./buildCaptcha.php";
                     <div class="card header__teaser--card">
 
                         <div class="card__image--front">
-                            <img src="./img/members/tom.500w-500h.png" alt="Airsoft Spieler Tom in Aktion">
+                            <img src="./img/members/tom.500w-500h.webp" alt="Airsoft Spieler Tom in Aktion">
                         </div>
                         <p class="card__text--front">Mit unserem Training bist du immer Spielbereit</p>
 
                         <div class="card__image--back">
-                            <img src="./img/members/sniper.500w-500h.png" alt="Sniper in Position">
+                            <img src="./img/members/sniper.500w-500h.webp" alt="Sniper in Position">
                         </div>
                         <p class="card__text--back">Mit uns bist du immer in der besten Position</p>
                     </div>
@@ -93,21 +93,21 @@ require "./buildCaptcha.php";
                 <div class="advantages__products">
                     <div class="scene">
                         <div class="card advantages__products__card">
-                            <img class="advantages__products__card__image" src="./img/members/heino.500w-500h.png" alt="Soldat visiert Ziel an">
+                            <img class="advantages__products__card__image" src="./img/members/heino.500w-500h.webp" alt="Soldat visiert Ziel an">
                             <p class="card__text--front card__text--front-advantages">Taktisches agieren mit Kurz und Langwaffe</p>
                             <p class="advantages__products__card__backside-description">In unserem Training vermitteln wir den taktischen, als auch den generellen Umgang mit Kurz und Langwaffen, damit du stets weißt, wie du auf dem Airsoftspielfeld agierst um mit deinem Team optimal zusammenarbeiten zu können<br> <br>Dazu gehört der generelle Umgang mit Funk als auch deiner gesamten taktischen Ausrüstung. Das Team hilft dir steht, dich bestens zurecht zu finden </p>
                         </div>
                     </div>
                     <div class="scene">
                         <div class="card advantages__products__card">
-                            <img class="advantages__products__card__image" src="./img/nahkampf.500w-500h.png" alt="Im Nahkampf immer Bereit">
+                            <img class="advantages__products__card__image" src="./img/nahkampf.500w-500h.webp" alt="Im Nahkampf immer Bereit">
                             <p class="card__text--front card__text--front-advantages">Ausgebildet im Nahkampf ohne Waffe</p>
                             <p class="advantages__products__card__backside-description">Ohne Waffen zu kämpfen bedeutet, sich nicht nur auf seine physische Fitness verlassen zu können, sondern auch den Gegner strategisch dorthin zu positionieren, wo man ihn am besten bearbeiten kann.<br> <br> Wir vermitteln den MMA Sport, da dieser die effektivsten Techniken aus allen Kampfsportarten vereint und optimale Ergebnisse liefert, die zum eigenen Schutz beitragen</p>
                         </div>
                     </div>
                     <div class="scene">
                         <div class="card advantages__products__card">
-                            <img class="advantages__products__card__image" src="./img/bushcraft.500w-500h.png" alt="Feuer machen ohne Feuerzeug">
+                            <img class="advantages__products__card__image" src="./img/bushcraft.500w-500h.webp" alt="Feuer machen ohne Feuerzeug">
                             <p class="card__text--front card__text--front-advantages">Intensives Outdoortraining</p>
                             <p class="advantages__products__card__backside-description">Sich in der Natur zurecht zu finden, gehört zu den essentiellen Fähigkeiten, die das Leben unserer Spezies über Generationen gesichert haben. <br> <br> Durch intensive Outdoorschulungen im Bushcraft stil, vermitteln wir das Wissen, das uns nicht nur dazu befähigt draußen zu überleben, sondern auch einen gewissen Komfort zu erreichen.</p>
                         </div>
@@ -153,9 +153,9 @@ require "./buildCaptcha.php";
     <footer class="footer">
         <div class="container container--row">
             <div class="footer__socialmedia">
-                <a href="#"><img src="./img/fb.png"></a>
-                <a href="#"><img src="./img/insta.png"></a>
-                <a href="#"><img src="./img/yt.png"></a>
+                <a href="#"><img src="./img/fb.500w-500h.webp"></a>
+                <a href="#"><img src="./img/insta.500w-500h.webp"></a>
+                <a href="#"><img src="./img/yt.500w-500h.webp"></a>
             </div>
             <div class="footer__slogan">
                 <a class="footer__links__link" href="https://captains-pride.com/">-Captain's Pride Group-</a>
