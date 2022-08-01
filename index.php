@@ -153,9 +153,9 @@ require "./buildCaptcha.php";
     <footer class="footer">
         <div class="container container--row">
             <div class="footer__socialmedia">
-                <a href="#"><img src="./img/fb.500w-500h.webp"></a>
-                <a href="#"><img src="./img/insta.500w-500h.webp"></a>
-                <a href="#"><img src="./img/yt.500w-500h.webp"></a>
+                <a href="#"><img style="padding:8px;" src="./img/fb.500w-500h.webp"></a>
+                <a href="#"><img style="padding:8px;" src="./img/insta.500w-500h.webp"></a>
+                <a href="#"><img style="padding:8px;" src="./img/yt.500w-500h.webp"></a>
             </div>
             <div class="footer__slogan">
                 <a class="footer__links__link" href="https://captains-pride.com/">-Captain's Pride Group-</a>
