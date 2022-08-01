@@ -391,7 +391,7 @@ img {
   width: 100%;
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(2, 32, 4, 0.9)), url("../img/G3.700w.500w-500h.webp");
   background-position: center center, center center;
-  background-size: contain, contain;
+  background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
   padding: 50px 0;
 }
