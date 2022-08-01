@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Jacques1988/tactical-combat-group#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "flat-map": "^1.0.0",
+    "gulp": "^4.0.2",
+    "gulp-scale-images": "^3.0.1"
   }
 }

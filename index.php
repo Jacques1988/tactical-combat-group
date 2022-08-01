@@ -53,12 +53,12 @@ require "./buildCaptcha.php";
                     <div class="card header__teaser--card">
 
                         <div class="card__image--front">
-                            <img src="./img/members/tom.jpg" alt="Airsoft Spieler Tom in Aktion">
+                            <img src="./img/members/tom.500w-500h.png" alt="Airsoft Spieler Tom in Aktion">
                         </div>
                         <p class="card__text--front">Mit unserem Training bist du immer Spielbereit</p>
 
                         <div class="card__image--back">
-                            <img src="./img/members/sniper.jpeg" alt="Sniper in Position">
+                            <img src="./img/members/sniper.500w-500h.png" alt="Sniper in Position">
                         </div>
                         <p class="card__text--back">Mit uns bist du immer in der besten Position</p>
                     </div>
@@ -93,21 +93,21 @@ require "./buildCaptcha.php";
                 <div class="advantages__products">
                     <div class="scene">
                         <div class="card advantages__products__card">
-                            <img class="advantages__products__card__image" src="./img/members/heino.jpg" alt="Soldat visiert Ziel an">
+                            <img class="advantages__products__card__image" src="./img/members/heino.500w-500h.png" alt="Soldat visiert Ziel an">
                             <p class="card__text--front card__text--front-advantages">Taktisches agieren mit Kurz und Langwaffe</p>
                             <p class="advantages__products__card__backside-description">In unserem Training vermitteln wir den taktischen, als auch den generellen Umgang mit Kurz und Langwaffen, damit du stets weißt, wie du auf dem Airsoftspielfeld agierst um mit deinem Team optimal zusammenarbeiten zu können<br> <br>Dazu gehört der generelle Umgang mit Funk als auch deiner gesamten taktischen Ausrüstung. Das Team hilft dir steht, dich bestens zurecht zu finden </p>
                         </div>
                     </div>
                     <div class="scene">
                         <div class="card advantages__products__card">
-                            <img class="advantages__products__card__image" src="./img/nahkampf.jpg" alt="Im Nahkampf immer Bereit">
+                            <img class="advantages__products__card__image" src="./img/nahkampf.500w-500h.png" alt="Im Nahkampf immer Bereit">
                             <p class="card__text--front card__text--front-advantages">Ausgebildet im Nahkampf ohne Waffe</p>
                             <p class="advantages__products__card__backside-description">Ohne Waffen zu kämpfen bedeutet, sich nicht nur auf seine physische Fitness verlassen zu können, sondern auch den Gegner strategisch dorthin zu positionieren, wo man ihn am besten bearbeiten kann.<br> <br> Wir vermitteln den MMA Sport, da dieser die effektivsten Techniken aus allen Kampfsportarten vereint und optimale Ergebnisse liefert, die zum eigenen Schutz beitragen</p>
                         </div>
                     </div>
                     <div class="scene">
                         <div class="card advantages__products__card">
-                            <img class="advantages__products__card__image" src="./img/bushcraft.jpg" alt="Feuer machen ohne Feuerzeug">
+                            <img class="advantages__products__card__image" src="./img/bushcraft.500w-500h.png" alt="Feuer machen ohne Feuerzeug">
                             <p class="card__text--front card__text--front-advantages">Intensives Outdoortraining</p>
                             <p class="advantages__products__card__backside-description">Sich in der Natur zurecht zu finden, gehört zu den essentiellen Fähigkeiten, die das Leben unserer Spezies über Generationen gesichert haben. <br> <br> Durch intensive Outdoorschulungen im Bushcraft stil, vermitteln wir das Wissen, das uns nicht nur dazu befähigt draußen zu überleben, sondern auch einen gewissen Komfort zu erreichen.</p>
                         </div>
