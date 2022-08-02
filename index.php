@@ -1,6 +1,6 @@
 <?php
 require "./buildCaptcha.php";
-
+require "./info_mail.php";
 ?>
 
 <!DOCTYPE html>
@@ -118,8 +118,16 @@ require "./buildCaptcha.php";
         </section>
         <section id="contact" class="contact">
             <div class="container">
-                <h1 class="heading heading--green">Schreibe uns eine Nachricht</h1>
-                <form class="form" action="./info_mail.php" method="POST">
+                <h1 class="heading heading--green">
+                    <?php if(!isset($_POST['send_form_message'])): ?>
+                        Schreibe uns eine Nachricht
+                    <?php elseif(isset($_POST['send_form_message']) && $mail_succesfully_sended === true): ?>
+                        Deine Nachricht wurde an uns gesendet.
+                    <?php elseif(isset($_POST['send_form_message'])&& $mail_succesfully_sended === false): ?>
+                        Ups, du hast das Captcha nicht korrekt eingegeben!
+                    <?php endif; ?>
+                </h1>
+                <form class="form" action="./index.php#contact" method="POST">
                     <div class="form__input-container">
                         <input required class="form__input-container__input" type="text" name="name" placeholder="Dein Name">
                         <input required class="form__input-container__input" type="text" name="phone" placeholder="Deine Telefonnummer">
@@ -136,7 +144,7 @@ require "./buildCaptcha.php";
                     <div class="form__agb-container">
                         <input required class="form__agb-container__checkbox" type="checkbox">
                         <p class="form__agb-container__text">Ich habe die Datenschutzrichtlinien gelesen und bin damit einverstanden das meine Daten ausschließlich zum Zweck der Weiterverarbeitung meiner Anfrage verwendet wird</p>
-                        <button type="submit" class="button-primary button-primary--link" href="#">Nachricht senden</button>
+                        <button type="submit" class="button-primary button-primary--link" name="send_form_message">Nachricht senden</button>
                     </div>
                 </form>
                 <h1 id="phone" class="heading heading--green heading--second">Oder rufe einfach an um ein Probetraining zu vereinbaren</h1>
