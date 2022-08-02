@@ -1,14 +1,8 @@
 <?php
 
-
-
-
 if(isset($_POST['send_form_message'])){
 
     $mail_succesfully_sended = NULL;
-
-
-
 
     // Daten über den Empfänger der Email und die Umleitung auf Seite nach Senden der EMail
     $recipient = 'info@pride-warriors.com';
