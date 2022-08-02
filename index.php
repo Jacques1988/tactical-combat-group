@@ -1,6 +1,6 @@
 <?php
 require "./buildCaptcha.php";
-require "./info_mail.php";
+require "./inc/home/info_mail.php";
 ?>
 
 <!DOCTYPE html>
