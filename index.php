@@ -122,7 +122,7 @@ require "./inc/home/info_mail.php";
                     <?php if(!isset($_POST['send_form_message'])): ?>
                         Schreibe uns eine Nachricht
                     <?php elseif(isset($_POST['send_form_message']) && $mail_succesfully_sended === true): ?>
-                        Deine Nachricht wurde an uns gesendet.
+                        Vielen Dank, deine Nachricht wurde an uns gesendet.
                     <?php elseif(isset($_POST['send_form_message'])&& $mail_succesfully_sended === false): ?>
                         Ups, du hast das Captcha nicht korrekt eingegeben!
                     <?php endif; ?>
