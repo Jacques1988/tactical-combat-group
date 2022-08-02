@@ -1,5 +1,5 @@
 <?php
-require "./buildCaptcha.php";
+require "./inc/home/buildCaptcha.php";
 require "./inc/home/info_mail.php";
 ?>
 
