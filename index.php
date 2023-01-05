@@ -15,7 +15,7 @@ require "./inc/home/info_mail.php";
     <link href="./dist/main.css" rel="stylesheet">
     <meta name="keywords" content="airsoft Rügen, airsoftverein Rügen, gotcha Rügen, fightclub Rügen, kampfsport Rügen, captains pride, warriors, selbstverteidigung Rügen, bushcraft auf Rügen, survival auf Rügen, outdoor auf Rügen  " />
     <meta name="description" content="In unserem Airsoftverein auf Rügen trainieren wir den Umgang mit Lang und Kurzwaffen im Airsoftbereich, sowie auch den Waffenlosen Kampf nach den Richtlinien des MMA (Mixed Martial Arts)">
-    <meta name="author" content="Captain's Pride">
+    <meta name="author" content="Jacques van Luyck">
     <title>Airsoft auf Rügen</title>
 </head>
 
@@ -60,7 +60,7 @@ require "./inc/home/info_mail.php";
                         <p class="card__text--front">Mit unserem Training bist du immer Spielbereit</p>
 
                         <div class="card__image--back">
-                            <img src="./img/members/sniper.500w-500h.webp" alt="Sniper in Position">
+                            <img src="./img/soldier_background.500w-500h.webp" alt="Airsoft-Spieler in Position">
                         </div>
                         <p class="card__text--back">Mit uns bist du immer in der besten Position</p>
                     </div>
