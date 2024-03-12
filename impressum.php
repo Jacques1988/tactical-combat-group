@@ -14,9 +14,10 @@
         <h1 class="heading heading--green">Impressum</h1>
         <p class="text-panel">
             Kontakt:
+            Bluewave-tech
             Jacques Löhr<br>
-            Hauptstraße 25<br>
-            18546 Sassnitz<br>
+            Griegstraße 1<br>
+            18435 Stralsund<br>
             Mobil: +49 (0) 1573 5291 696<br><br>
 
             Ein herzliches Dankeschön an Maximilian von Lokstedt für die schönen Bilder<br><br>

@@ -36,8 +36,8 @@ require "./inc/home/info_mail.php";
                     </div>
                     <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#get_member">Tritt uns bei</a></li>
                     <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#training">Unser Training</a></li>
-                    <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="shop.php">Shop</a></li>
-                    <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#">Login</a></li>
+                    <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#contact">Kontakt</a></li>
+                    <li class="header__navigation__menu__box__list"><a onclick="close_menu()" class="header__navigation__menu__box__list__link" href="#arrival">Anfahrt</a></li>
                 </ul>
             </div>
             <a class="header__navigation__link" href="index.php">
@@ -49,7 +49,7 @@ require "./inc/home/info_mail.php";
         <div class="container">
             <div class="header__teaser">
                 <h1 class="heading heading--header">
-                    Willkommen bei der Captain's Pride tactical Combat Group
+                    Willkommen bei der Captain's Pride Tactical Combat Group
                 </h1>
                 <div class="scene">
                     <div class="card header__teaser--card">
@@ -121,11 +121,11 @@ require "./inc/home/info_mail.php";
         <section id="contact" class="contact">
             <div class="container">
                 <h1 class="heading heading--green">
-                    <?php if(!isset($_POST['send_form_message'])): ?>
+                    <?php if (!isset($_POST['send_form_message'])) : ?>
                         Schreibe uns eine Nachricht
-                    <?php elseif(isset($_POST['send_form_message']) && $mail_succesfully_sended === true): ?>
+                    <?php elseif (isset($_POST['send_form_message']) && $mail_succesfully_sended === true) : ?>
                         Vielen Dank, deine Nachricht wurde an uns gesendet.
-                    <?php elseif(isset($_POST['send_form_message'])&& $mail_succesfully_sended === false): ?>
+                    <?php elseif (isset($_POST['send_form_message']) && $mail_succesfully_sended === false) : ?>
                         Ups, du hast das Captcha nicht korrekt eingegeben!
                     <?php endif; ?>
                 </h1>
@@ -154,7 +154,7 @@ require "./inc/home/info_mail.php";
             </div>
         </section>
         <section class="find-us">
-            <div class="container">
+            <div class="container" id="arrival">
                 <h1 class="heading">So findest du zu uns</h1>
                 <iframe class="find-us__map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9263.484517576044!2d13.6473421!3d54.5181341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd05033c7cc419af6!2sCaptain&#39;s%20Pride%20Warriors!5e0!3m2!1sde!2sde!4v1659065259901!5m2!1sde!2sde" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -168,13 +168,14 @@ require "./inc/home/info_mail.php";
                 <a href="#"><img style="padding:8px;" src="./img/yt.500w-500h.webp"></a>
             </div>
             <div class="footer__slogan">
-                <a class="footer__links__link" href="https://captains-pride.com/">-Captain's Pride Group-</a>
+                <a class="footer__links__link" href="https://bluewave-tech.de/">-Bluewave-tech-</a>
+                <a class="footer__links__link" href="https://kiri-media.com/">-Kiri-media.com-</a>
                 <h2>gemeinsam stark</h2>
             </div>
             <div class="footer__links">
                 <a class="footer__links__link" href="impressum.php" target="_blank">Impressum</a>
                 <a class="footer__links__link" href="datenschutz.php" target="_blank">Datenschutz</a>
-                <a class="footer__links__link" href="https://captains-web.com/" target="_blank">@copy Captains Web 2022</a>
+                <a class="footer__links__link" href="https://bluewave-tech.de/" target="_blank">@copy Bluewave-tech 2024</a>
             </div>
         </div>
     </footer>
